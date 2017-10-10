@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="110dp"
+    android:layout_height="120dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AP to Wifi"
+        android:textSize="@dimen/f_18"
+        android:textColor="@color/black"/>
+    <com.kys26.webthings.progress.CircleProgressBar
+        android:id="@+id/myProgress"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true" />
+</LinearLayout>

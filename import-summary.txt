@@ -1,0 +1,171 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\.name
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\scopes\
+* .idea\scopes\scope_settings.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* app\
+* app\build.gradle
+* app\libs\
+* app\libs\core.jar
+* app\libs\library.jar
+* app\libs\xUtils-2.3.6.jar
+* app\src\
+* app\src\main\
+* app\src\main\AndroidManifest.xml
+* app\src\main\assets\
+* app\src\main\assets\company.png
+* app\src\main\java\
+* app\src\main\java\com\
+* app\src\main\java\com\kys26\
+* app\src\main\java\com\kys26\MyGestureLock\
+* app\src\main\java\com\kys26\MyGestureLock\BaseActivity.java
+* app\src\main\java\com\kys26\MyGestureLock\LoginActivity.java
+* app\src\main\java\com\kys26\MyGestureLock\MainActivity.java
+* app\src\main\java\com\kys26\MyGestureLock\app\
+* app\src\main\java\com\kys26\MyGestureLock\app\MyApplication.java
+* app\src\main\java\com\kys26\MyGestureLock\gesture\
+* app\src\main\java\com\kys26\MyGestureLock\gesture\CreateGesturePasswordActivity.java
+* app\src\main\java\com\kys26\MyGestureLock\gesture\GuideGesturePasswordActivity.java
+* app\src\main\java\com\kys26\MyGestureLock\gesture\LockPasswordUtils.java
+* app\src\main\java\com\kys26\MyGestureLock\gesture\UnlockGesturePasswordActivity.java
+* app\src\main\java\com\kys26\MyGestureLock\util\
+* app\src\main\java\com\kys26\MyGestureLock\util\AnimationUtil.java
+* app\src\main\java\com\kys26\MyGestureLock\util\IntentDialog.java
+* app\src\main\java\com\kys26\MyGestureLock\util\ToastHelper.java
+* app\src\main\java\com\kys26\MyGestureLock\util\Util.java
+* app\src\main\java\com\kys26\MyGestureLock\view\
+* app\src\main\java\com\kys26\MyGestureLock\view\ClearEditText.java
+* app\src\main\java\com\kys26\MyGestureLock\view\LockPatternUtils.java
+* app\src\main\java\com\kys26\MyGestureLock\view\LockPatternView.java
+* app\src\main\res\
+* app\src\main\res\anim\
+* app\src\main\res\anim\interpolator_cycle.xml
+* app\src\main\res\anim\shake.xml
+* app\src\main\res\anim\shake_x.xml
+* app\src\main\res\anim\shake_y.xml
+* app\src\main\res\anim\zoom_enter.xml
+* app\src\main\res\anim\zoom_exit.xml
+* app\src\main\res\drawable-hdpi\
+* app\src\main\res\drawable-hdpi\application_bg_welcome.png
+* app\src\main\res\drawable-hdpi\bg2.jpg
+* app\src\main\res\drawable-hdpi\card_avatar.9.png
+* app\src\main\res\drawable-hdpi\emotionstore_progresscancelbtn.png
+* app\src\main\res\drawable-hdpi\exit.png
+* app\src\main\res\drawable-hdpi\gesture_create_grid_bg.png
+* app\src\main\res\drawable-hdpi\gesture_create_grid_selected.png
+* app\src\main\res\drawable-hdpi\gesture_guide_pic.png
+* app\src\main\res\drawable-hdpi\gesture_pattern_item_bg.9.png
+* app\src\main\res\drawable-hdpi\gesture_pattern_selected.png
+* app\src\main\res\drawable-hdpi\gesture_pattern_selected_wrong.png
+* app\src\main\res\drawable-hdpi\ic_launcher.png
+* app\src\main\res\drawable-hdpi\icon_app.png
+* app\src\main\res\drawable-hdpi\skin_common_btn_green_disable.9.png
+* app\src\main\res\drawable-hdpi\skin_common_btn_green_normal.9.png
+* app\src\main\res\drawable-hdpi\skin_common_btn_green_pressed.9.png
+* app\src\main\res\drawable-hdpi\skin_common_btn_red_disabled.9.png
+* app\src\main\res\drawable-hdpi\skin_common_btn_red_pressed.9.png
+* app\src\main\res\drawable-hdpi\skin_common_btn_red_unpressed.9.png
+* app\src\main\res\drawable-hdpi\txt_lock_icon.jpg
+* app\src\main\res\drawable-hdpi\txt_person_icon.jpg
+* app\src\main\res\drawable-mdpi\
+* app\src\main\res\drawable-mdpi\ic_launcher.png
+* app\src\main\res\drawable-xhdpi\
+* app\src\main\res\drawable-xhdpi\ic_launcher.png
+* app\src\main\res\drawable-xxhdpi\
+* app\src\main\res\drawable-xxhdpi\ic_launcher.png
+* app\src\main\res\drawable\
+* app\src\main\res\drawable\common_btn_green.xml
+* app\src\main\res\drawable\common_btn_red.xml
+* app\src\main\res\drawable\gesture_btn.xml
+* app\src\main\res\drawable\login_btn.xml
+* app\src\main\res\drawable\login_edittext.xml
+* app\src\main\res\drawable\skin_color_button.xml
+* app\src\main\res\drawable\welcome_bg.xml
+* app\src\main\res\layout\
+* app\src\main\res\layout\activity_login.xml
+* app\src\main\res\layout\activity_main.xml
+* app\src\main\res\layout\gesturepassword_create.xml
+* app\src\main\res\layout\gesturepassword_guide.xml
+* app\src\main\res\layout\gesturepassword_unlock.xml
+* app\src\main\res\menu\
+* app\src\main\res\menu\main.xml
+* app\src\main\res\values-sw600dp\
+* app\src\main\res\values-sw600dp\dimens.xml
+* app\src\main\res\values-sw720dp-land\
+* app\src\main\res\values-sw720dp-land\dimens.xml
+* app\src\main\res\values-v11\
+* app\src\main\res\values-v11\styles.xml
+* app\src\main\res\values-v14\
+* app\src\main\res\values-v14\styles.xml
+* app\src\main\res\values\
+* app\src\main\res\values\attrs.xml
+* app\src\main\res\values\colors.xml
+* app\src\main\res\values\dimens.xml
+* app\src\main\res\values\strings.xml
+* app\src\main\res\values\styles.xml
+* build.gradle
+* gradle\
+* gradle\wrapper\
+* gradle\wrapper\gradle-wrapper.jar
+* gradle\wrapper\gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* ic_launcher-web.png
+* proguard-project.txt
+* settings.gradle
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:20.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* libs\core.jar => app\libs\core.jar
+* libs\library.jar => app\libs\library.jar
+* libs\xUtils-2.3.6.jar => app\libs\xUtils-2.3.6.jar
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:id="@+id/querydetail_bg"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/bg_warning1"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mp_55"
+        android:background="@null">
+        <ImageView
+            android:id="@+id/left_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/button_selector_back"/>
+        <TextView
+            android:id="@+id/querydetail_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="农场名称"
+            android:textColor="@color/white"
+            android:textSize="@dimen/f_20"/>
+
+        <Button
+            android:id="@+id/querydetail_rightbtn"
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/btn_title_right"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="17dp"
+        android:layout_weight="1.5">
+
+        <Spinner
+            android:id="@+id/querydetail_choicegw"
+            android:layout_width="250dp"
+            android:layout_marginTop="@dimen/mp_20"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:layout_alignParentBottom="true"
+            android:textSize="@dimen/f_15"
+            ></Spinner>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/query_data"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="1月14日"
+        android:textColor="@color/white"
+        android:textSize="@dimen/f_15"/>
+
+    <TextView
+        android:id="@+id/comfortable"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:text="舒适"
+        android:textColor="@color/white"
+        android:textSize="65sp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="4"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+       <ListView
+           android:id="@+id/message_list"
+           android:layout_centerInParent="true"
+           android:layout_marginRight="@dimen/activity_horizontal_margin"
+           android:layout_marginLeft="@dimen/activity_horizontal_margin"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"/>
+
+    </RelativeLayout>
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        />
+
+</LinearLayout>

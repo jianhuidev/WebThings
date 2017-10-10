@@ -1,0 +1,656 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:2:1-274:12
+	package
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:3:5-40
+		INJECTED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha9] C:\Users\lenovo\.android\build-cache\5475016560d5c40cca1191cf8722c04e260bd0ba\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\lenovo\.android\build-cache\60a6d15429f9bc366e7be290f0b0cd68d002985c\output\AndroidManifest.xml:20:5-43
+MERGED from [com.tencent.bugly:crashreport:2.6.5] C:\Users\lenovo\.android\build-cache\1e1d0619ab38e0d4420eb8b09bb04ec994e35660\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.bugly:nativecrashreport:3.3.1] C:\Users\lenovo\.android\build-cache\13dd3c4627ef3fbcd9701a7f5f3626e8831f91e5\output\AndroidManifest.xml:5:5-7:41
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.7] C:\Users\lenovo\.android\build-cache\4a431ad3a2f8a71cd8622efa084f0bdb3e698219\output\AndroidManifest.xml:7:5-9:41
+MERGED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\lenovo\.android\build-cache\87540429d1042280c895df55bc2034e80f18e46f\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\lenovo\.android\build-cache\139f3da75c97e20f58cd7da0d8cdb0762689d6f2\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\lenovo\.android\build-cache\0fa1faf95ccd32729c2bebf623ba1813e69ead58\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\lenovo\.android\build-cache\6ebebc5ad349367ac85ac58bc60bed98d3d06fe6\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\lenovo\.android\build-cache\833b8b3bf8df6929fb70227cd53823ab6f7fd291\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\lenovo\.android\build-cache\4bfec5f840e9978bbb9e0d258161c770abae55c0\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\lenovo\.android\build-cache\e690e64a552fb0878e8727ff24bb668fc723d325\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\lenovo\.android\build-cache\c80ef8a8bdb235862315178dedf2fb10e0140c44\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\lenovo\.android\build-cache\e1970651bae76ed777069673cbd8e0fbbf203b42\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\lenovo\.android\build-cache\ccda1dfa46457615c7f96714d036dacce99af148\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\lenovo\.android\build-cache\d5a34cccb6bd17c35e5ac07a7a94f8dd64b6aaa5\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\lenovo\.android\build-cache\40d32a391ed0ab1d4a53588b851788ba50cc82af\output\AndroidManifest.xml:21:5-23:58
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\lenovo\.android\build-cache\2eee1b1143568469615a7f119206144416ec55f0\output\AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\lenovo\.android\build-cache\87540429d1042280c895df55bc2034e80f18e46f\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml
+uses-feature#android.hardware.camera
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:11:5-60
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:11:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:12:5-70
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:12:19-67
+uses-permission#android.permission.READ_LOGS
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:14:5-68
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:14:22-65
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:15:5-84
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:15:22-81
+uses-permission#android.permission.CAMERA
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:16:5-65
+MERGED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:26:5-65
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:16:22-62
+uses-permission#android.permission.INTERNET
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:17:5-67
+MERGED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:13:5-67
+MERGED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:17:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:18:5-75
+MERGED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:18:5-75
+MERGED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:15:5-75
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:18:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:19:5-81
+MERGED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:12:5-81
+MERGED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:19:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:20:5-80
+MERGED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:20:22-77
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:22:5-79
+MERGED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:21:5-79
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:22:22-76
+uses-permission#android.permission.GET_TASKS
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:23:5-68
+MERGED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:22:5-68
+MERGED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:17:5-68
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:23:22-65
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:24:5-68
+MERGED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:23:5-68
+MERGED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:18:5-68
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:24:22-65
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:26:5-78
+MERGED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:30:5-78
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:26:22-75
+uses-permission#android.permission.VIBRATE
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:28:5-66
+MERGED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:25:5-66
+MERGED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:28:22-63
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:31:5-73
+MERGED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:27:5-73
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:31:22-70
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:33:5-79
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:33:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:34:5-76
+MERGED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:31:5-76
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:34:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:35:5-79
+MERGED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:14:5-79
+MERGED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:35:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:36:5-76
+MERGED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:16:5-76
+MERGED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:14:5-76
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:36:22-73
+uses-permission#android.permission.WRITE_SECURE_SETTINGS
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:38:5-80
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:38:22-77
+application
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:40:5-273:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha9] C:\Users\lenovo\.android\build-cache\5475016560d5c40cca1191cf8722c04e260bd0ba\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\lenovo\.android\build-cache\60a6d15429f9bc366e7be290f0b0cd68d002985c\output\AndroidManifest.xml:26:5-20
+MERGED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:33:5-96:19
+MERGED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:24:5-95:19
+MERGED from [com.android.support:design:25.3.1] C:\Users\lenovo\.android\build-cache\87540429d1042280c895df55bc2034e80f18e46f\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\lenovo\.android\build-cache\139f3da75c97e20f58cd7da0d8cdb0762689d6f2\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\lenovo\.android\build-cache\0fa1faf95ccd32729c2bebf623ba1813e69ead58\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\lenovo\.android\build-cache\6ebebc5ad349367ac85ac58bc60bed98d3d06fe6\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\lenovo\.android\build-cache\4bfec5f840e9978bbb9e0d258161c770abae55c0\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\lenovo\.android\build-cache\e690e64a552fb0878e8727ff24bb668fc723d325\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\lenovo\.android\build-cache\c80ef8a8bdb235862315178dedf2fb10e0140c44\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\lenovo\.android\build-cache\e1970651bae76ed777069673cbd8e0fbbf203b42\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\lenovo\.android\build-cache\ccda1dfa46457615c7f96714d036dacce99af148\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\lenovo\.android\build-cache\d5a34cccb6bd17c35e5ac07a7a94f8dd64b6aaa5\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\lenovo\.android\build-cache\40d32a391ed0ab1d4a53588b851788ba50cc82af\output\AndroidManifest.xml:29:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\lenovo\.android\build-cache\2eee1b1143568469615a7f119206144416ec55f0\output\AndroidManifest.xml:9:5-20
+	android:screenOrientation
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:45:9-45
+	android:label
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:44:9-41
+	android:allowBackup
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:42:9-35
+	android:icon
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:43:9-42
+	android:theme
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:46:9-40
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:41:9-61
+activity#com.kys26.webthings.login.SelectActivity
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:50:9-59:20
+	android:screenOrientation
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:53:13-49
+	android:configChanges
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:52:13-133
+	android:theme
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:54:13-69
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:51:13-68
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:55:13-58:29
+action#android.intent.action.MAIN
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:56:17-69
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:56:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:57:17-77
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:57:27-74
+activity#com.kys26.webthings.query.QueryDetailActivity
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:106:9-108:72
+	android:theme
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:108:13-69
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:107:13-73
+activity#com.kys26.webthings.permission.PermissionActivity
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:110:9-112:60
+	android:theme
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:112:13-57
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:111:13-77
+activity#com.kys26.webthings.main.MainActivity
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:127:9-143:20
+	android:screenOrientation
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:131:13-49
+	android:launchMode
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:130:13-44
+	android:configChanges
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:129:13-133
+	android:theme
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:132:13-69
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:128:13-65
+intent-filter#android.intent.action.VIEW+android.intent.category.DEFAULT
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:134:13-142:29
+action#android.intent.action.VIEW
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:135:17-69
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:135:25-66
+category#android.intent.category.DEFAULT
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:136:17-76
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:136:27-73
+data
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:138:17-141:45
+	android:host
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:139:21-61
+	android:scheme
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:141:21-42
+	android:pathPrefix
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:140:21-55
+activity#com.kys26.webthings.gateway.SubmitActivity
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:145:9-79
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:145:19-76
+activity#com.kys26.webthings.gateway.InitializeSubmitProgress
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:147:9-149:72
+	android:theme
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:149:13-69
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:148:13-80
+activity#com.kys26.webthings.gateway.CaptureActivity
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:151:9-153:72
+	android:theme
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:153:13-69
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:152:13-71
+activity#com.kys26.webthings.login.RegisterActivity
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:163:9-166:81
+	android:label
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:165:13-60
+	android:theme
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:166:13-69
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:164:13-70
+activity#com.kys26.webthings.command.CmdCtlDetailActivity
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:173:9-175:60
+	android:theme
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:175:13-57
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:174:13-76
+activity#com.kys26.webthings.query.Chart
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:176:9-68
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:176:19-65
+activity#com.kys26.webthings.projectmanage.CreateProjectActivity
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:178:9-92
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:178:19-89
+activity#com.kys26.webthings.projectmanage.AddGateWayActivity
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:180:9-182:55
+	android:windowSoftInputMode
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:182:13-52
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:181:13-80
+activity#com.kys26.webthings.projectmanage.AddNodeActivity
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:184:9-86
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:184:19-83
+activity#com.kys26.webthings.projectmanage.ConfigurationPlanActivity
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:187:9-96
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:187:19-93
+activity#com.kys26.webthings.projectmanage.CompleteProject
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:189:9-95
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:189:19-83
+activity#com.kys26.webthings.query.WarningTempActivity
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:197:9-199:63
+	android:theme
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:199:13-60
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:198:13-73
+activity#com.kys26.webthings.query.WarningHumActivity
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:201:9-203:63
+	android:theme
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:203:13-60
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:202:13-72
+activity#com.kys26.webthings.query.WarningNH3Activity
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:205:9-207:63
+	android:theme
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:207:13-60
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:206:13-72
+activity#com.kys26.webthings.login.LoginActivity
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:208:9-211:72
+	android:screenOrientation
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:210:13-49
+	android:theme
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:211:13-69
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:209:13-67
+activity#com.kys26.webthings.command.CommandActivity
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:215:9-217:81
+	android:theme
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:217:13-69
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:216:13-71
+activity#com.kys26.webthings.command.WarningActionActivity
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:218:9-220:72
+	android:theme
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:220:13-69
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:219:13-77
+activity#com.kys26.webthings.command.WindControlActivity
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:221:9-223:72
+	android:theme
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:223:13-69
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:222:13-75
+activity#com.kys26.webthings.command.WarningSettingActivity
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:224:9-226:72
+	android:theme
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:226:13-69
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:225:13-78
+activity#com.kys26.webthings.history.HistoryActivity
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:227:9-229:72
+	android:theme
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:229:13-69
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:228:13-71
+activity#com.kys26.webthings.gateway.InitializeGateway
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:230:9-232:72
+	android:theme
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:232:13-69
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:231:13-73
+activity#com.kys26.webthings.person.SettingActivity
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:233:9-235:72
+	android:theme
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:235:13-69
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:234:13-70
+activity#com.kys26.webthings.wifi.SettingWifi
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:236:9-238:72
+	android:theme
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:238:13-69
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:237:13-64
+activity#com.kys26.webthings.video.RtmpActivity
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:239:9-241:72
+	android:theme
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:241:13-69
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:240:13-66
+activity#com.kys26.webthings.video.VideoActivity
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:242:9-245:72
+	android:screenOrientation
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:243:13-50
+	android:theme
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:245:13-69
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:244:13-67
+activity#com.kys26.webthings.personalcenter.NoticeActivity
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:247:9-249:72
+	android:theme
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:249:13-69
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:248:13-77
+activity#com.kys26.webthings.login.ModifyPassWordActivity
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:250:9-252:72
+	android:theme
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:252:13-69
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:251:13-76
+activity#com.kys26.webthings.personalcenter.ChangeActivity
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:254:9-255:71
+	android:theme
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:255:13-69
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:254:19-83
+meta-data#RONG_CLOUD_APP_KEY
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:257:9-259:45
+MERGED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:27:9-29:45
+	android:value
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:259:13-42
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:258:13-46
+receiver#com.kys26.webthings.recieve.MyNoticeReceiver
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:262:9-272:20
+	android:enabled
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:264:13-35
+	android:exported
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:265:13-36
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:263:13-72
+intent-filter#io.rong.push.intent.MESSAGE_ARRIVED+io.rong.push.intent.MESSAGE_CLICKED+io.rong.push.intent.MI_MESSAGE_ARRIVED+io.rong.push.intent.MI_MESSAGE_CLICKED
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:266:13-271:29
+action#io.rong.push.intent.MESSAGE_ARRIVED
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:267:17-78
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:267:25-75
+action#io.rong.push.intent.MI_MESSAGE_ARRIVED
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:268:17-81
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:268:25-78
+action#io.rong.push.intent.MESSAGE_CLICKED
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:269:17-78
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:269:25-75
+action#io.rong.push.intent.MI_MESSAGE_CLICKED
+ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:270:17-81
+	android:name
+		ADDED from D:\Desktop\WebThings\app\src\main\AndroidManifest.xml:270:25-78
+meta-data#android.support.VERSION
+ADDED from [com.android.support:cardview-v7:25.3.1] C:\Users\lenovo\.android\build-cache\60a6d15429f9bc366e7be290f0b0cd68d002985c\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:design:25.3.1] C:\Users\lenovo\.android\build-cache\87540429d1042280c895df55bc2034e80f18e46f\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\lenovo\.android\build-cache\139f3da75c97e20f58cd7da0d8cdb0762689d6f2\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\lenovo\.android\build-cache\0fa1faf95ccd32729c2bebf623ba1813e69ead58\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\lenovo\.android\build-cache\6ebebc5ad349367ac85ac58bc60bed98d3d06fe6\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\lenovo\.android\build-cache\833b8b3bf8df6929fb70227cd53823ab6f7fd291\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\lenovo\.android\build-cache\4bfec5f840e9978bbb9e0d258161c770abae55c0\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\lenovo\.android\build-cache\e690e64a552fb0878e8727ff24bb668fc723d325\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\lenovo\.android\build-cache\c80ef8a8bdb235862315178dedf2fb10e0140c44\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\lenovo\.android\build-cache\e1970651bae76ed777069673cbd8e0fbbf203b42\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\lenovo\.android\build-cache\ccda1dfa46457615c7f96714d036dacce99af148\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\lenovo\.android\build-cache\d5a34cccb6bd17c35e5ac07a7a94f8dd64b6aaa5\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\lenovo\.android\build-cache\40d32a391ed0ab1d4a53588b851788ba50cc82af\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:cardview-v7:25.3.1] C:\Users\lenovo\.android\build-cache\60a6d15429f9bc366e7be290f0b0cd68d002985c\output\AndroidManifest.xml:24:9-31
+	android:name
+		ADDED from [com.android.support:cardview-v7:25.3.1] C:\Users\lenovo\.android\build-cache\60a6d15429f9bc366e7be290f0b0cd68d002985c\output\AndroidManifest.xml:23:9-47
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:15:22-78
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:21:5-71
+MERGED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:16:5-71
+	android:name
+		ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:21:22-68
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:24:5-80
+MERGED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:19:5-80
+	android:name
+		ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:24:22-77
+uses-permission#android.permission.INTERACT_ACROSS_USERS_FULL
+ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:28:5-85
+	android:name
+		ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:28:22-82
+uses-permission#android.permission.PROCESS_OUTGOING_CALLS
+ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:29:5-81
+	android:name
+		ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:29:22-78
+activity#io.rong.imkit.plugin.location.AMapLocationActivity
+ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:34:9-87
+	android:name
+		ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:34:19-84
+activity#io.rong.imkit.plugin.location.AMapPreviewActivity
+ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:35:9-86
+	android:name
+		ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:35:19-83
+activity#io.rong.imkit.plugin.location.AMapRealTimeActivity
+ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:36:9-87
+	android:name
+		ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:36:19-84
+activity#io.rong.imkit.plugin.image.PictureSelectorActivity
+ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:37:9-39:52
+	android:screenOrientation
+		ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:39:13-49
+	android:name
+		ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:38:13-78
+activity#io.rong.imkit.plugin.image.PicturePreviewActivity
+ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:40:9-42:52
+	android:screenOrientation
+		ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:42:13-49
+	android:name
+		ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:41:13-77
+activity#io.rong.imkit.tools.RongWebviewActivity
+ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:45:9-53:20
+	android:screenOrientation
+		ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:47:13-49
+	android:name
+		ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:46:13-67
+intent-filter#android.intent.category.DEFAULT+io.rong.imkit.intent.action.webview
+ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:48:13-52:29
+action#io.rong.imkit.intent.action.webview
+ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:49:17-78
+	android:name
+		ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:49:25-75
+activity#io.rong.imkit.widget.provider.TakingPicturesActivity
+ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:54:9-57:52
+	android:screenOrientation
+		ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:57:13-49
+	android:configChanges
+		ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:56:13-63
+	android:name
+		ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:55:13-80
+activity#io.rong.imkit.activity.PicturePagerActivity
+ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:58:9-66:20
+	android:theme
+		ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:60:13-71
+	android:name
+		ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:59:13-71
+intent-filter#android.intent.category.DEFAULT+io.rong.imkit.intent.action.picturepagerview
+ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:61:13-65:29
+action#io.rong.imkit.intent.action.picturepagerview
+ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:62:17-87
+	android:name
+		ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:62:25-84
+activity#io.rong.imkit.mention.MemberMentionedActivity
+ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:67:9-70:67
+	android:windowSoftInputMode
+		ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:70:13-64
+	android:configChanges
+		ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:69:13-63
+	android:name
+		ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:68:13-73
+activity#io.rong.imkit.activity.FileManagerActivity
+ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:71:9-79
+	android:name
+		ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:71:19-76
+activity#io.rong.imkit.activity.FileListActivity
+ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:72:9-76
+	android:name
+		ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:72:19-73
+activity#io.rong.imkit.activity.FilePreviewActivity
+ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:73:9-79:20
+	android:name
+		ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:73:19-76
+intent-filter#android.intent.category.DEFAULT+io.rong.imkit.intent.action.openfile
+ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:74:13-78:29
+action#io.rong.imkit.intent.action.openfile
+ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:75:17-79
+	android:name
+		ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:75:25-76
+activity#io.rong.imkit.activity.CSLeaveMessageActivity
+ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:80:9-83:52
+	android:screenOrientation
+		ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:83:13-49
+	android:configChanges
+		ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:82:13-63
+	android:name
+		ADDED from [WebThings:IMKit:unspecified] D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\AndroidManifest.xml:81:13-73
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:22:22-78
+service#io.rong.imlib.ipc.RongService
+ADDED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:31:9-34:38
+	android:process
+		ADDED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:34:13-35
+	android:exported
+		ADDED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:33:13-36
+	android:name
+		ADDED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:32:13-57
+service#io.rong.imlib.ReConnectService
+ADDED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:35:9-37:39
+	android:exported
+		ADDED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:37:13-36
+	android:name
+		ADDED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:36:13-58
+receiver#io.rong.imlib.ConnectChangeReceiver
+ADDED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:39:9-41:39
+	android:exported
+		ADDED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:41:13-36
+	android:name
+		ADDED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:40:13-63
+receiver#io.rong.imlib.HeartbeatReceiver
+ADDED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:42:9-44:38
+	android:process
+		ADDED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:44:13-35
+	android:name
+		ADDED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:43:13-59
+service#io.rong.push.core.PushRegistrationService
+ADDED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:50:9-53:19
+	android:exported
+		ADDED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:52:13-37
+	android:name
+		ADDED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:51:13-69
+service#io.rong.push.core.MessageHandleService
+ADDED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:56:9-59:19
+	android:exported
+		ADDED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:58:13-36
+	android:name
+		ADDED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:57:13-66
+service#io.rong.push.PushService
+ADDED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:62:9-66:19
+	android:process
+		ADDED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:65:13-43
+	android:exported
+		ADDED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:64:13-36
+	android:name
+		ADDED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:63:13-52
+receiver#io.rong.push.PushReceiver
+ADDED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:69:9-89:20
+	android:process
+		ADDED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:71:13-43
+	android:name
+		ADDED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:70:13-53
+intent-filter#io.rong.push.intent.action.HEART_BEAT
+ADDED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:73:13-75:29
+action#io.rong.push.intent.action.HEART_BEAT
+ADDED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:74:17-80
+	android:name
+		ADDED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:74:25-77
+intent-filter#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:77:13-79:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:78:17-79
+	android:name
+		ADDED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:78:25-76
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:81:13-83:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:82:17-79
+	android:name
+		ADDED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:82:25-76
+intent-filter#android.intent.action.ACTION_POWER_CONNECTED+android.intent.action.ACTION_POWER_DISCONNECTED+android.intent.action.USER_PRESENT
+ADDED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:84:13-88:29
+action#android.intent.action.USER_PRESENT
+ADDED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:85:17-77
+	android:name
+		ADDED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:85:25-74
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:86:17-87
+	android:name
+		ADDED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:86:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:87:17-90
+	android:name
+		ADDED from [WebThings:IMLib:unspecified] D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\AndroidManifest.xml:87:25-87

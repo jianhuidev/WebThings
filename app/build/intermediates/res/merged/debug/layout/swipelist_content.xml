@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:paddingTop="10dp"
+    >
+
+    <TextView
+        android:id="@+id/swipe_listname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="@string/swipe_name"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/swipe_list_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/swipe_listname"
+        android:gravity="center"
+        android:textColor="@color/gray"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/swipe_listrole"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/swipe_role"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/swipe_list_role"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/swipe_listrole"
+        android:gravity="center"
+        android:textColor="@color/gray"
+        android:textSize="18sp"/>
+
+    <RelativeLayout
+        android:id="@+id/content_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/swipe_list_role"
+        android:layout_marginTop="20dp"
+        android:background="@color/light_gray"/>
+    <ImageView
+        android:id="@+id/bt_add_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/content_line"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/addlist_unfocused"
+        android:visibility="gone"
+       />
+</RelativeLayout>

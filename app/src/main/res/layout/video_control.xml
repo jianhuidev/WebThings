@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:id="@+id/v_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/mp_10"
+            android:layout_marginRight="@dimen/mp_10"
+            android:clickable="true"
+            android:src="@drawable/video_left" />
+
+        <ImageView
+            android:id="@+id/v_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/v_left"
+            android:layout_marginBottom="@dimen/mp_10"
+            android:layout_toRightOf="@+id/v_left"
+            android:clickable="true"
+            android:src="@drawable/video_up" />
+
+        <ImageView
+            android:id="@+id/v_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/v_left"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_toRightOf="@+id/v_up"
+            android:clickable="true"
+            android:src="@drawable/video_right" />
+
+        <ImageView
+            android:id="@+id/v_down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/v_up"
+            android:layout_below="@id/v_left"
+            android:layout_marginTop="@dimen/mp_10"
+            android:clickable="true"
+            android:src="@drawable/video_down" />
+
+        <ImageView
+            android:id="@+id/v_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:clickable="true"
+            android:src="@drawable/video_stop" />
+    </RelativeLayout>
+</RelativeLayout>

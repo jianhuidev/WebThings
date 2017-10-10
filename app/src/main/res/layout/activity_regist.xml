@@ -1,0 +1,150 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        >
+        <FrameLayout
+            android:id="@+id/left_btn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/login_topleft_selector"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/cmd_left_back"
+                android:layout_width="21dp"
+                android:layout_height="21dp"
+                android:layout_gravity="center"
+                android:background="@drawable/top_left_img"
+                />
+        </FrameLayout>
+
+        <!--<ImageView-->
+        <!--android:id="@+id/left_iv"-->
+        <!--android:layout_width="48dp"-->
+        <!--android:layout_height="48dp"-->
+        <!--android:background="@drawable/back_btn_bg"-->
+        <!--android:clickable="true"-->
+        <!--android:src="@drawable/dl_nav_return"-->
+        <!--/>-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="注册"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            />
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/regist_btn"
+        android:layout_width="241dp"
+        android:layout_height="41dp"
+        android:layout_below="@+id/edit_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/login_btn_selector"
+        android:text="注册"
+        android:textColor="@color/white"
+        android:textSize="16sp"/>
+
+
+    <LinearLayout
+        android:id="@+id/edit_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="67dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/nickname_edit"
+            android:layout_width="290dp"
+            android:layout_height="48dp"
+            android:background="@null"
+            android:drawableBottom="@drawable/editbottom_selector"
+            android:drawableLeft="@drawable/dl_icon_user"
+            android:drawablePadding="15dp"
+            android:hint="用户名"
+            android:textColorHint="@color/gray"
+            android:paddingLeft="15dp"
+            android:selectAllOnFocus="true"
+            />
+
+        <EditText
+            android:id="@+id/password_edit"
+            android:layout_width="290dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="14dp"
+            android:background="@null"
+            android:drawableBottom="@drawable/editbottom_selector"
+            android:drawableLeft="@drawable/dl_icon_password"
+            android:drawablePadding="15dp"
+            android:textColorHint="@color/gray"
+            android:hint="密码"
+            android:inputType="textPassword"
+            android:paddingLeft="15dp"
+            android:selectAllOnFocus="true"
+            />
+
+        <EditText
+            android:id="@+id/email_edit"
+            android:layout_width="290dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="14dp"
+            android:background="@null"
+            android:textColorHint="@color/gray"
+            android:drawableBottom="@drawable/editbottom_selector"
+            android:drawableLeft="@drawable/email_icon"
+            android:drawablePadding="15dp"
+            android:hint="手机号"
+            android:paddingLeft="15dp"
+            android:selectAllOnFocus="true"
+            />
+
+        <EditText
+            android:id="@+id/phone_edit"
+            android:layout_width="290dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="14dp"
+            android:background="@null"
+            android:drawableBottom="@drawable/editbottom_selector"
+            android:drawableLeft="@drawable/phone_icon"
+            android:drawablePadding="15dp"
+            android:textColorHint="@color/gray"
+            android:hint="账户/手机号"
+            android:paddingLeft="15dp"
+            android:selectAllOnFocus="true"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/zcdl_image_left"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/zcdl_image_right"
+        />
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <GridView
+            android:id="@+id/wind_node_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="@dimen/mp_20"
+            android:horizontalSpacing="@dimen/mp_10"
+            android:listSelector="#00000000"
+            android:numColumns="2"
+            android:paddingLeft="@dimen/mp_20"
+            android:paddingRight="@dimen/mp_20"
+            android:verticalSpacing="@dimen/mp_10" />
+
+        <LinearLayout
+            android:id="@+id/control_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/wind_node_list"
+            android:layout_marginLeft="@dimen/f_20"
+            android:layout_marginRight="@dimen/f_20"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/open_all_btn"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/cmd_btn_selector"
+                android:text="打开全部"
+                android:textColor="@drawable/cmd_btntext_selector"
+                android:textSize="@dimen/f_16" />
+
+            <Button
+                android:id="@+id/close_all_btn"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/cmd_btn_selector"
+                android:text="关闭全部"
+                android:textColor="@drawable/cmd_btntext_selector"
+                android:textSize="@dimen/f_16" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
+

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/video_title_bg"
+                android:orientation="horizontal"
+                android:padding="10dp"
+    >
+
+    <Button
+        android:id="@+id/videotitle_openchannel"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@color/background_color_green"
+        android:text="打开通道"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        />
+
+    <Button
+        android:id="@+id/videotitle_closechannel"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/videotitle_openchannel"
+        android:background="@color/red"
+        android:text="关闭通道"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        />
+
+    <Button
+        android:id="@+id/videotitle_history"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/videotitle_closechannel"
+        android:background="@color/background_color_yellow"
+        android:text="历史记录"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        />
+
+    <Button
+        android:id="@+id/videotitle_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/videotitle_history"
+        android:background="@color/actionsheet_blue"
+        android:text="设置"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        />
+
+    <Button
+        android:id="@+id/showrightwindow_btn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/settings_items_bg"/>
+</RelativeLayout>

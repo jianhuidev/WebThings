@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="61dp"
+    android:orientation="vertical">
+
+    <com.kys26.webthings.view.SlidView
+        android:id="@+id/slid_view"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            >
+
+            <RelativeLayout
+                android:id="@+id/item_timinglayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/mp_20"
+                android:paddingRight="@dimen/mp_20"
+                >
+
+                <TextView
+                    android:id="@+id/time_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/start_txt"
+                    android:textColor="@color/black"
+                    android:textSize="28sp"
+                    />
+
+                <TextView
+                    android:id="@+id/start_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/mp_10"
+                    android:layout_marginStart="@dimen/mp_10"
+                    android:textSize="@dimen/f_10"
+                    />
+
+                <TextView
+                    android:id="@+id/end_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/start_txt"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginStart="35dp"
+                    android:layout_toEndOf="@+id/start_txt"
+                    android:layout_toRightOf="@+id/start_txt"
+                    android:textSize="@dimen/f_10"
+                    />
+
+                <ProgressBar
+                    android:id="@+id/progressbar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/mp_30"
+                    android:layout_marginStart="@dimen/mp_30"
+                    android:layout_toEndOf="@+id/end_txt"
+                    android:layout_toRightOf="@+id/end_txt"
+                    android:visibility="gone"
+                    />
+
+                <Switch
+                    android:id="@+id/timing_switch"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:thumb="@drawable/switch_thumb"
+                    android:track="@drawable/switch_track"
+                    />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/item_timinglayout"
+                android:background="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/tv_delete"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_toEndOf="@+id/item_timinglayout"
+                android:layout_toRightOf="@+id/item_timinglayout"
+                android:background="@color/red"
+                android:gravity="center"
+                android:text="删 除"
+                android:textColor="#DDFFFFFF"
+                />
+
+            <TextView
+                android:id="@+id/tv_edit"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_toEndOf="@+id/tv_delete"
+                android:layout_toRightOf="@id/tv_delete"
+                android:background="@color/gray"
+                android:gravity="center"
+                android:text="修 改"
+                android:textColor="#DDFFFFFF"
+                />
+        </RelativeLayout>
+    </com.kys26.webthings.view.SlidView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_line"/>
+</LinearLayout>

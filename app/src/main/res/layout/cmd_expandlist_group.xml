@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/cmd_group_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:focusable="false"
+        android:layout_marginLeft="10dp"
+        android:contentDescription="@string/list_logo"
+        />
+
+    <TextView
+        android:id="@+id/cmd_group_title"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_centerInParent="true"
+        android:focusable="false"
+        android:textColor="#130c0e"
+        android:textSize="18sp" />
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#8c8b8b"/>
+
+</RelativeLayout>

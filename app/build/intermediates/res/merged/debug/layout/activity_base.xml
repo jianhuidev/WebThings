@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/base_view"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:clipToPadding="true"
+              android:fitsSystemWindows="true"
+              android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:id="@+id/base_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/blue"
+        >
+
+        <FrameLayout
+            android:id="@+id/left_btn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/bg_topright_btn"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/cmd_left_back"
+                android:layout_width="21dp"
+                android:layout_height="21dp"
+                android:layout_gravity="center"
+                android:background="@drawable/cmd_left_back"
+                />
+        </FrameLayout>
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="3dp"
+            android:visibility="invisible"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="1dp"
+            android:layout_toRightOf="@+id/title_text"
+            android:layout_alignTop="@+id/title_text"
+            android:layout_toEndOf="@+id/title_text"/>
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/icon_img"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:maxEms="8"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            />
+
+        <FrameLayout
+            android:id="@+id/right_btn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/bg_topright_btn"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/cmd_right_setting"
+                android:layout_width="21dp"
+                android:layout_height="21dp"
+                android:layout_gravity="center"
+                />
+            <RelativeLayout
+                android:id="@+id/warning_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/top_warn_num"
+                    android:layout_width="@dimen/f_12"
+                    android:layout_height="@dimen/f_12"
+                    android:background="@drawable/bg_topright_num"
+                    android:textSize="@dimen/f_10"
+                    android:text="2"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="10dp"
+                    />
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/topright_btn"
+                    />
+            </RelativeLayout>
+        </FrameLayout>
+    </RelativeLayout>
+
+    <com.kys26.webthings.view.VerticalSwipeRefreshLayout
+        android:id="@+id/swipeRefresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/base_contentview"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/white">
+        </FrameLayout>
+    </com.kys26.webthings.view.VerticalSwipeRefreshLayout>
+</LinearLayout>

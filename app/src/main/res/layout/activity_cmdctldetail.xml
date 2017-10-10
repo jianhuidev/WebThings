@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/querydetail_bg"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/bg_cmd"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mp_55"
+        android:background="@null">
+
+        <ImageView
+            android:id="@+id/left_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/button_selector_back"/>
+
+        <TextView
+            android:id="@+id/querydetail_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="农场名称"
+            android:textColor="@color/white"
+            android:textSize="@dimen/f_20"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="17dp"
+        android:layout_weight="1">
+
+        <Spinner
+            android:id="@+id/querydetail_choicegw"
+            android:layout_width="250dp"
+            android:layout_alignParentBottom="true"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/f_15"
+            android:layout_marginTop="@dimen/mp_20"
+            ></Spinner>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="4"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ListView
+            android:id="@+id/message_list"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            />
+        <Button
+            android:id="@+id/open_all"
+            android:layout_width="120dp"
+            android:text="打开全部"
+            android:textColor="@color/white"
+            android:textSize="@dimen/f_20"
+            android:background="@drawable/bg_btn_citcle"
+            android:layout_height="120dp"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            />
+        <Button
+            android:id="@+id/close_all"
+            android:layout_width="120dp"
+            android:text="关闭全部"
+            android:textSize="@dimen/f_20"
+            android:textColor="@color/white"
+            android:background="@drawable/bg_btn_citcle"
+            android:layout_height="120dp"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_horizontal"
+              android:orientation="vertical"
+              android:paddingTop="5dp"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.8"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+
+        <RelativeLayout
+            android:id="@+id/cricleProgress"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_weight="1.0"
+            android:gravity="center"></RelativeLayout>
+
+        <TextView
+            android:id="@+id/textReminder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="正在进行初始化,请勿断开."
+            android:textColor="@color/black"
+            android:textSize="@dimen/f_15"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        >
+
+        <com.kys26.webthings.progress.NodeProgress
+            android:id="@+id/ssl"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1.0"
+        android:background="#FAFAFB"
+        android:gravity="center">
+
+        <com.kys26.webthings.view.criclebutton.CircleButton
+            android:id="@+id/buttonAgain"
+            android:layout_width="130dip"
+            android:layout_height="130dip"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/iniavalie_cricle_button"
+            app:cb_color="@color/blue" />
+
+        <com.kys26.webthings.progress.CircleProgressBar
+            android:id="@+id/tasks_view"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\Desktop\WebThings\app\libs\gson-1.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0e420e7635e40fbef3e2cc257c702b1427962d1d">
+        <dex dex="D:\Desktop\WebThings\app\build\intermediates\pre-dexed\debug\gson-1.6_9c5d8a4b5cb1ef3e2748a4d8c259bf8eb7e871d0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Desktop\WebThings\app\libs\volley.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d36a9071480ead76bfcb3ed39649fd539cb25357">
+        <dex dex="D:\Desktop\WebThings\app\build\intermediates\pre-dexed\debug\volley_0c357e12595f4ae37947960729fc44b27a8cec30.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Desktop\WebThings\app\libs\andbase20130716.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="054348907c6159a06c48f6c068d78cd829ec256a">
+        <dex dex="D:\Desktop\WebThings\app\build\intermediates\pre-dexed\debug\andbase20130716_cb983659bf0f8dc0d236aa38e976840f103964e4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Desktop\WebThings\app\libs\butterknife-6.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3a10b25b6820e19102e118711afe6a66c0bae123">
+        <dex dex="D:\Desktop\WebThings\app\build\intermediates\pre-dexed\debug\butterknife-6.0.0_033f53a1efee6c17f5c90fbd1c13f64aecb8dcc7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\lenovo\.android\build-cache\2eee1b1143568469615a7f119206144416ec55f0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="D:\Desktop\WebThings\app\build\intermediates\pre-dexed\debug\classes_bbed27f1ca864b13705996e8cf50a87e7ea64e2d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6a6b8966e35a402eda0880b0b9b3668a2490e78f">
+        <dex dex="D:\Desktop\WebThings\app\build\intermediates\pre-dexed\debug\classes_30f01bdbc05bbeb62dd1b4c7a7a07434287f886f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Desktop\WebThings\IMKit\build\intermediates\bundles\default\libs\Rong_IMKit.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7b910f0e7e66b555bab5fec2823b205f79b6795a">
+        <dex dex="D:\Desktop\WebThings\app\build\intermediates\pre-dexed\debug\Rong_IMKit_2dc51a7617545eb6c3673791c384584972656084.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Desktop\WebThings\app\libs\core.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="69ab751723c7f7c8a01fddb1d169a93160fadca7">
+        <dex dex="D:\Desktop\WebThings\app\build\intermediates\pre-dexed\debug\core_d28c06ea62af5a8adbd9a7cb0e02d5ce3e50f3fb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Desktop\WebThings\app\libs\mpandroidchartlibrary-1-7-4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c685e45ac6491e51640ce3571606ac22dfd4a6a3">
+        <dex dex="D:\Desktop\WebThings\app\build\intermediates\pre-dexed\debug\mpandroidchartlibrary-1-7-4_191012b001f63a06bf0618407902c2227fdedf1c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Desktop\WebThings\app\libs\push.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="429a7b59bf178fe4ddbfcb9ab8715ea73b9012cb">
+        <dex dex="D:\Desktop\WebThings\app\build\intermediates\pre-dexed\debug\push_e5df73e4f2f6c9e253313dda5ccfc5577ea22f69.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\libs\Rong_IMLib.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9f5cb6dcf9fd5ac820f1d166121d6959f42df07b">
+        <dex dex="D:\Desktop\WebThings\app\build\intermediates\pre-dexed\debug\Rong_IMLib_7e6424b1d9fc61d9e2e25439f1d313239757a482.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Desktop\WebThings\IMLib\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f85d1c3bc77167f0dbd86b5dc3d9d9f0542cbdc6">
+        <dex dex="D:\Desktop\WebThings\app\build\intermediates\pre-dexed\debug\classes_f831aca5ec7a07afcba182280bff2e691803a52b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Desktop\WebThings\app\libs\juv-rtmp-client-1.5.10.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d846be9ee61f2d083d5dbcb8831febb5bb41c813">
+        <dex dex="D:\Desktop\WebThings\app\build\intermediates\pre-dexed\debug\juv-rtmp-client-1.5.10_a2b5c89091d10b6a6fb8e1a12e53d62b81e42a2c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Desktop\WebThings\app\libs\xUtils-2.3.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="06230d5c7eea6e32494990c6a012a39ce04f1e8c">
+        <dex dex="D:\Desktop\WebThings\app\build\intermediates\pre-dexed\debug\xUtils-2.3.6_c52456f05016e91ffffb5de3f3277747498a9cb6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Desktop\WebThings\app\libs\BASE64.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f80edc977b5165ff7c451e1c6b94de9f25d7e41f">
+        <dex dex="D:\Desktop\WebThings\app\build\intermediates\pre-dexed\debug\BASE64_9a4833149c122abeee9b182a84be475dc5a1056a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Desktop\WebThings\app\libs\json-lib-2.4-jdk15.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="136743e0d12df4e785e62b48618cee169b2ae546">
+        <dex dex="D:\Desktop\WebThings\app\build\intermediates\pre-dexed\debug\json-lib-2.4-jdk15_a1266679011a3626d9619761f1b49ad44bb156e8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Desktop\WebThings\app\libs\library.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5fbbd84981781c09a2f902f6e1755431d05014b4">
+        <dex dex="D:\Desktop\WebThings\app\build\intermediates\pre-dexed\debug\library_9e530f5407c1ed6e6467d7ffbbe9840440a6fd52.jar" />
+    </item>
+
+</items>

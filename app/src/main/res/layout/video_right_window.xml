@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="@drawable/video_title_bg"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/video_controll_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/video_controll_left"
+            android:text="上"/>
+
+        <Button
+            android:id="@+id/video_controll_pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/video_controll_up"
+            android:layout_toRightOf="@+id/video_controll_left"
+            android:text="暂停"
+            />
+
+        <Button
+            android:id="@+id/video_controll_down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/video_controll_pause"
+            android:layout_toRightOf="@+id/video_controll_left"
+            android:text="下"
+            />
+
+        <Button
+            android:id="@+id/video_controll_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/video_controll_up"
+            android:text="左"/>
+
+        <Button
+            android:id="@+id/video_controll_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/video_controll_up"
+            android:layout_toRightOf="@+id/video_controll_pause"
+            android:text="右"/>
+
+        <Button
+            android:id="@+id/focus_sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:text="-"/>
+
+        <TextView
+            android:id="@+id/focus_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/video_controll_right"
+            android:layout_toLeftOf="@+id/focus_sub"
+            android:text="调焦"
+            android:textSize="16sp"
+            />
+
+        <Button
+            android:id="@+id/focus_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@+id/focus_tv"
+            android:text="+"/>
+
+        <Button
+            android:id="@+id/distance_sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/focus_add"
+            android:layout_marginTop="10dp"
+            android:text="-"/>
+
+        <Button
+            android:id="@+id/distance_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/focus_add"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@+id/distance_tv"
+            android:text="+"/>
+
+        <TextView
+            android:id="@+id/distance_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/distance_sub"
+            android:layout_alignBottom="@+id/distance_sub"
+            android:layout_toLeftOf="@+id/distance_sub"
+            android:layout_toStartOf="@+id/distance_sub"
+            android:text="远近"
+            android:textSize="16sp"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/cruise_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="巡航扫描:"
+        android:textColor="@color/gray"
+        android:textSize="16sp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:id="@+id/cruise_btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="巡航扫描1"
+            />
+
+        <Button
+            android:id="@+id/cruise_btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="巡航扫描2"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/lienar_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:text="线扫设置:"
+        android:textColor="@color/gray"
+        android:textSize="16sp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/start_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="设为起始点"
+            />
+
+        <Button
+            android:id="@+id/end_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="设为结束点"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/lieanr_360btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="360°扫描"/>
+
+        <Button
+            android:id="@+id/linear_recoverbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="恢复线扫"
+            />
+    </RelativeLayout>
+</LinearLayout>

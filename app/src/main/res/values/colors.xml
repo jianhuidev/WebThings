@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="new_lightblue">#98eeee</color>
+    <color name="gray_line">#e6e6e6</color>
+    <color name="touback">#00000000</color>
+    <!--全透明-->
+    <color name="color_00000000">#00000000</color>
+    <!--主色调带透明-->
+    <color name="color_bff8356e">#bff8356e</color>
+    <!--主色调-->
+    <color name="color_f8356e">#f8356e</color>
+    <!--灰色字体颜色1最深-->
+    <color name="color_333333">#333333</color>
+    <!--灰色字体颜色2次深-->
+    <color name="color_666666">#666666</color>
+    <!--灰色字体颜色3次浅-->
+    <color name="color_999999">#999999</color>
+    <!--灰色字体颜色3次浅-->
+    <color name="color_fafafa">#fafafa</color>
+    <!--个人信息界面字体颜色-->
+    <color name="color_404040">#404040</color>
+    <!--灰色按钮-->
+    <color name="color_dddddd">#dddddd</color>
+    <!--灰色按钮点击效果-->
+    <color name="color_c7c7c7">#c7c7c7</color>
+    <!--红色按钮点击效果-->
+    <color name="color_e03063">#e03063</color>
+    <!--带白色边框红色按钮点击效果-->
+    <color name="color_f95d88">#f95d88</color>
+    <!--带白色边框红色按钮点击效果-->
+    <color name="color_fdccdb">#FDCCDB</color>
+    <!--背景灰色-->
+    <color name="color_ededed">#EDEDEF</color>
+    <!--纯白-->
+    <color name="color_ffffff">#ffffff</color>
+    <!--纯黑-->
+    <color name="color_000000">#000000</color>
+    <!--纯白-->
+    <color name="color_bfffffff">#4fffffff</color>
+    <!--排行榜第二-->
+    <color name="color_ffad2b">#ffad2b</color>
+    <!--排行榜第三-->
+    <color name="color_57a6ff">#57a6ff</color>
+    <!--男性年龄背景-->
+    <color name="color_65adff">#65adff</color>
+    <!--女性年龄背景-->
+    <color name="color_ff6592">#ff6592</color>
+    <!--筛选Menu文字颜色-->
+    <color name="color_157efb">#157efb</color>
+    <!--绿色按钮颜色-->
+    <color name="color_00bb16">#00bb16</color>
+    <!--绿色按钮点击颜色-->
+    <color name="color_00ff16">#00ff16</color>
+    <!--活动状态值-进行中-->
+    <color name="color_2aa919">#2aa919</color>
+    <color name="icon_bar_text_color">#82858b</color>
+    <color name="search_back">#eaeaea</color>
+    <color name="black">#000000</color>
+    <color name="shade">#666666</color>
+    <color name="home_back">#60CCCCCC</color>
+    <color name="allDivider">#80CCCCCC</color>
+    <color name="grey">#C1CDCD</color>
+    <color name="grey_bg">#eeeeee</color>
+    <color name="light_gray">#d0d0d0</color>
+    <color name="linkColor">#5757F2</color>
+    <color name="tv_grey9">#999999</color>
+    <color name="tv_black3">#333333</color>
+    <color name="tv_black6">#666666</color>
+    <color name="black6c">#CCCCCC</color>
+    <color name="black6e">#eeeeee</color>
+    <color name="blue">#1daaf0</color>
+    <color name="blue_80">#801daaf0</color>
+    <color name="apl60">#99000000</color>
+    <color name="bg_F9">#EFEFEF</color>
+    <color name="orange">#FF6600</color>
+    <color name="gray">#7c7c7c</color>
+    <color name="red">#FF0000</color>
+    <color name="light_blue">#6593cb</color>
+    <color name="login_ed1">#A9A9A9</color>
+    <!-- 手势锁 -->
+    <color name="gesture_background">#ff303237</color>
+    <color name="color_hei_8">#00000000</color>
+
+    <drawable name="trans">@color/color_hei_8</drawable>
+
+    <drawable name="testC">@color/red</drawable>
+
+    <!-- 扫描 -->
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="possible_result_points">#c0ffbd21</color>
+    <!-- Android standard ICS color -->
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color>
+    <!-- Android standard ICS color -->
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#60000000</color>
+    <!-- 画面背景色 -->
+    <drawable name="layout_backgroud">#000000</drawable>
+
+    <!-- 分割线背景色 -->
+    <drawable name="line_background">#161823</drawable>
+
+    <color name="front_line">#ffd8d8d8</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_80">#80FFFFFF</color>
+    <color name="white_60">#60FFFFFF</color>
+    <color name="lv_divider">#00000000</color>
+    <!-- 控件按下时显示的颜色 -->
+    <color name="list_backgroud_color">#2fb3cb</color>
+    <color name="title_color">#0f8ec5</color>
+    <color name="content_color">#737373</color>
+    <color name="str_color_gray">#999999</color>
+    <color name="str_color_black">#333333</color>
+    <!--初始化加载进度动画背景!-->
+    <color name="smallCircleColor">#FFDF8D81</color>
+    <color name="largeCircleColor">#FFAF3854</color>
+    <color name="outerCircleColor">#66cccc</color>
+    <color name="circle_color">#323a45</color>
+    <color name="ring_color">#14b9d6</color>
+    <!-- 提示框的背景色 -->
+    <color name="background_color_green">#e56bbe7a</color>
+    <color name="background_color_black">#bb000000</color>
+    <color name="background_color_blue">#e553c5f8</color>
+    <color name="background_color_pink">#e5E7b8f1</color>
+    <color name="background_color_yellow">#e5d29b36</color>
+    <color name="background_color_brown">#e54c2316</color>
+
+    <color name="outside_color_trans">#00000000</color>
+    <color name="outside_color_gray">#66444444</color>
+    <color name="outside_color_pink">#66E7b8f1</color>
+    <!--时间选择器控件背景色!-->
+    <color name="trans">#00000000</color>
+    <color name="alertdialog_line">#c6c6c6</color>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="actionsheet_red">#FD4A2E</color>
+    <color name="actionsheet_gray">#8F8F8F</color>
+
+    <color name="blue_1">#d1edfb</color>
+    <color name="blue_2">#42a5f5</color>
+    <color name="blue_3">#1daaf0</color>
+    <color name="blue_4">#1565c0</color>
+    <color name="blue_5">#0d47a1</color>
+
+    <color name="warning_1">#1daaf0</color>
+    <color name="warning_2">#00acc1</color>
+    <color name="warning_3">#546e7a</color>
+    <color name="warning_4">#e53935</color>
+    <color name="default_shadow_color">#88757575</color>
+    <color name="default_fill_color">#ffffff</color>
+    <color name="transparent_20">#20000000</color>
+</resources>

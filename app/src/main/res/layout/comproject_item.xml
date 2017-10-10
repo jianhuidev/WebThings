@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/comproject_itemid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设备编号:暂无"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/comproject_itemname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="购置设备名称:暂无"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/comproject_itemprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="金额:暂无"
+            android:textSize="16sp"
+            />
+</LinearLayout>

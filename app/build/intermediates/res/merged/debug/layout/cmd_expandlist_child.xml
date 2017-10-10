@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/node_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:background="@color/search_back"
+            />
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#8c8b8b"/>
+
+        <TextView
+            android:id="@+id/node_name"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1.0"
+            android:gravity="center_horizontal"
+            android:paddingLeft="5dp"
+            android:text="@string/node_name"
+            android:textColor="#130c0e"
+            android:textSize="15sp"/>
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#8c8b8b"/>
+
+        <TextView
+            android:id="@+id/node_state"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1.0"
+            android:gravity="center_horizontal"
+            android:paddingLeft="5dp"
+            android:text="@string/node_state"
+            android:textColor="#130c0e"
+            android:textSize="15sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#8c8b8b"/>
+</LinearLayout>

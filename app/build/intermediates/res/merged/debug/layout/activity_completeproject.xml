@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:id="@+id/title_Rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/top_bg">
+
+        <ImageView
+            android:id="@+id/completeproject_left_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/button_selector_back"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/completeproject_left_iv"
+            android:src="@drawable/line"/>
+        <TextView
+            android:id="@+id/completeproject_tittle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="新建项目结果"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+
+    </RelativeLayout>
+
+    <ListView
+        android:layout_below="@+id/completeproject_step"
+        android:id="@+id/completeproject_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp"
+        />
+    <TextView
+        android:id="@+id/confplan_NextStep"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/background_color_green"
+        android:gravity="center"
+        android:text="完成"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:id="@+id/completeproject_step"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="第二步:添加项目设备"
+        android:textColor="@color/actionsheet_blue"
+        android:textSize="18sp"
+        android:layout_below="@+id/title_Rl"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:id="@+id/title_Rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/top_bg">
+
+        <ImageView
+            android:id="@+id/left_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/button_selector_back"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/left_iv"
+            android:src="@drawable/line"/>
+
+        <TextView
+            android:id="@+id/permission_tittle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/permission_title"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/classify_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/left_iv"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/left_iv"
+            android:layout_centerInParent="true"
+            android:text="全部用户"
+            >
+        </Button>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/title_Rl"
+        android:background="@color/black"/>
+
+    <com.kys26.webthings.view.SwipeListView
+        android:id="@+id/permission_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line"
+        android:background="@color/white">
+
+    </com.kys26.webthings.view.SwipeListView>
+
+    <ImageView
+        android:id="@+id/bt_add_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/permission_list"
+        android:maxHeight="40dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/bt_add_list"/>
+</RelativeLayout>

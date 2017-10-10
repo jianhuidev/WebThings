@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/blue_3"
+              android:orientation="vertical">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/white"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/week"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="46dp"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/white"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/date"
+            />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="15dp"
+            android:text="氨气浓度"
+            android:textColor="@color/white"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pm"/>
+
+        <TextView
+            android:id="@+id/pm"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:text="10"
+            android:textColor="@color/white"
+            android:textSize="65sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="ppm"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/pm"
+            app:layout_constraintLeft_toRightOf="@+id/pm"/>
+
+        <RelativeLayout
+            android:id="@+id/hum_btn"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_farm_white"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <TextView
+                    android:id="@+id/hum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="10dp"
+                    android:text="0"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"
+                    app:layout_constraintHorizontal_bias="0.34"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:text="%"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"
+                    app:layout_constraintBaseline_toBaselineOf="@+id/hum"
+                    app:layout_constraintLeft_toRightOf="@+id/hum"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="@dimen/mp_5"
+                    android:text="湿度"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/hum"/>
+            </android.support.constraint.ConstraintLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/temp_btn"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginLeft="-6dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_farm_white"
+            app:layout_constraintHorizontal_bias="0.543"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/hum_btn"
+            app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+
+                <TextView
+                    android:id="@+id/temp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="10dp"
+                    android:text="0"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:text="°"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"
+                    app:layout_constraintBaseline_toBaselineOf="@id/temp"
+                    app:layout_constraintLeft_toRightOf="@id/temp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="@dimen/mp_5"
+                    android:layout_marginRight="8dp"
+                    android:text="温度"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/temp"/>
+            </android.support.constraint.ConstraintLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/sunpower_btn"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_farm_white"
+            app:layout_constraintLeft_toRightOf="@+id/hum_btn"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+
+                <TextView
+                    android:id="@+id/sunpower"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="10dp"
+                    android:text="0"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"
+                    app:layout_constraintHorizontal_bias="0.34"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:text="lx"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"
+                    app:layout_constraintBaseline_toBaselineOf="@+id/sunpower"
+                    app:layout_constraintLeft_toRightOf="@+id/sunpower"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="@dimen/mp_5"
+                    android:text="光照强度"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/sunpower"/>
+            </android.support.constraint.ConstraintLayout>
+        </RelativeLayout>
+    </android.support.constraint.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:orientation="vertical"
+        >
+
+        <!--<android.support.v4.view.ViewPager-->
+        <!--android:id="@+id/viewpager"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="0.8"-->
+        <!--/>-->
+
+        <!--<RelativeLayout-->
+        <!--android:id="@+id/Rl_dot"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="15dp"-->
+        <!--android:gravity="center"-->
+        <!--&gt;-->
+        <!--&lt;!&ndash;小灰点所在的父控件&ndash;&gt;-->
+        <!--<LinearLayout-->
+        <!--android:id="@+id/ll_dot"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center"-->
+        <!--android:orientation="horizontal">-->
+        <!--</LinearLayout>-->
+        <!--&lt;!&ndash;小红点&ndash;&gt;-->
+        <!--<View-->
+        <!--android:id="@+id/view_dot"-->
+        <!--android:layout_width="10dp"-->
+        <!--android:layout_height="10dp"-->
+        <!--android:background="@drawable/shape_blue_dot"-->
+        <!--/>-->
+        <!--</RelativeLayout>-->
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/node_list"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="3dp"
+            android:layout_weight="1"/>
+
+        <RelativeLayout
+            android:id="@+id/Rl_dot"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:gravity="center"
+            >
+            <!--小灰点所在的父控件-->
+            <LinearLayout
+                android:id="@+id/ll_dot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <View
+                    android:id="@+id/view_dot1"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:background="@drawable/view_dot_bg"
+                    />
+
+                <View
+                    android:id="@+id/view_dot2"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginLeft="4dp"
+                    android:background="@drawable/view_dot_bg"
+                    />
+            </LinearLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+    <!--<View-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:background="@color/gray_line"-->
+    <!--android:layout_height="1dp"/>-->
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:background="@color/white"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:layout_height="48dp">-->
+    <!--<RelativeLayout-->
+    <!--android:id="@+id/btn_bottom_left"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:clickable="true"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_weight="1">-->
+    <!--<ImageView-->
+    <!--android:layout_width="25dp"-->
+    <!--android:background="@drawable/bg_bottom_left"-->
+    <!--android:layout_height="25dp"-->
+    <!--android:id="@+id/imageView_left"-->
+    <!--android:layout_marginTop="3dp"-->
+    <!--android:layout_centerHorizontal="true" />-->
+
+    <!--<TextView-->
+    <!--android:text="养殖列表"-->
+    <!--android:textSize="9sp"-->
+    <!--android:layout_marginTop="5dp"-->
+    <!--android:textColor="@drawable/color_bottom_txt"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@+id/imageView_left"-->
+    <!--android:layout_centerHorizontal="true" />-->
+    <!--</RelativeLayout>-->
+    <!--<RelativeLayout-->
+    <!--android:id="@+id/btn_bottom_middle"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:clickable="true"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_weight="1">-->
+    <!--<ImageView-->
+    <!--android:layout_width="25dp"-->
+    <!--android:background="@drawable/bg_bottom_middle"-->
+    <!--android:layout_height="25dp"-->
+    <!--android:id="@+id/imageView_middle"-->
+    <!--android:layout_marginTop="3dp"-->
+    <!--android:layout_centerHorizontal="true" />-->
+
+    <!--<TextView-->
+    <!--android:text="养殖场"-->
+    <!--android:layout_marginTop="5dp"-->
+    <!--android:textSize="9sp"-->
+    <!--android:textColor="@drawable/color_bottom_txt"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@+id/imageView_middle"-->
+    <!--android:layout_centerHorizontal="true" />-->
+    <!--</RelativeLayout>-->
+    <!--<RelativeLayout-->
+    <!--android:id="@+id/btn_bottom_right"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:clickable="true"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_weight="1">-->
+    <!--<ImageView-->
+    <!--android:layout_width="25dp"-->
+    <!--android:background="@drawable/bg_bottom_right"-->
+    <!--android:layout_height="25dp"-->
+    <!--android:id="@+id/imageView_right"-->
+    <!--android:layout_marginTop="3dp"-->
+    <!--android:layout_centerHorizontal="true" />-->
+
+    <!--<TextView-->
+    <!--android:text="个人中心"-->
+    <!--android:textSize="9sp"-->
+    <!--android:textColor="@drawable/color_bottom_txt"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="5dp"-->
+    <!--android:layout_below="@+id/imageView_right"-->
+    <!--android:layout_centerHorizontal="true" />-->
+    <!--</RelativeLayout>-->
+    <!--</LinearLayout>-->
+</LinearLayout>
