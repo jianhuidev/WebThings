@@ -288,10 +288,11 @@ public class VideoActivity extends Activity implements SurfaceHolder.Callback, V
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.right_image:
-                if (drawerLayout.isShown())
-                    drawerLayout.closeDrawer(Gravity.END);
-                else
-                    drawerLayout.openDrawer(Gravity.END);
+//                if (drawerLayout.isShown())
+//                    drawerLayout.closeDrawer(Gravity.END);
+//                else
+//                    drawerLayout.openDrawer(Gravity.END);
+                drawerLayout.openDrawer(Gravity.END);
                 break;
             case R.id.v_stop:
                 CallCommand(new String[]{"FF", addressCode, "00", "00", "00", "00"});

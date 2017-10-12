@@ -68,12 +68,12 @@
         "source": "I:\\Desktop\\WebThings\\app\\src\\main\\res\\drawable-hdpi\\allview_load_succeed.png"
     },
     {
-        "merged": "D:\\Desktop\\WebThings (1)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\indicator_default.png",
-        "source": "D:\\Desktop\\WebThings (1)\\app\\src\\main\\res\\drawable-hdpi\\indicator_default.png"
-    },
-    {
         "merged": "I:\\Desktop\\WebThings\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\yzc_icon_clear.png",
         "source": "I:\\Desktop\\WebThings\\app\\src\\main\\res\\drawable-hdpi\\yzc_icon_clear.png"
+    },
+    {
+        "merged": "D:\\Desktop\\WebThings (1)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\indicator_default.png",
+        "source": "D:\\Desktop\\WebThings (1)\\app\\src\\main\\res\\drawable-hdpi\\indicator_default.png"
     },
     {
         "merged": "D:\\Desktop\\WebThings (1)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\marker2.png",
@@ -128,12 +128,12 @@
         "source": "D:\\Desktop\\WebThings (1)\\app\\src\\main\\res\\drawable-hdpi\\progress_whtie_groove.png"
     },
     {
-        "merged": "I:\\Desktop\\WebThings\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dialog_bg.png",
-        "source": "I:\\Desktop\\WebThings\\app\\src\\main\\res\\drawable-hdpi\\dialog_bg.png"
-    },
-    {
         "merged": "D:\\Desktop\\WebThings\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\video_right.png",
         "source": "D:\\Desktop\\WebThings\\app\\src\\main\\res\\drawable-hdpi\\video_right.png"
+    },
+    {
+        "merged": "I:\\Desktop\\WebThings\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dialog_bg.png",
+        "source": "I:\\Desktop\\WebThings\\app\\src\\main\\res\\drawable-hdpi\\dialog_bg.png"
     },
     {
         "merged": "I:\\Desktop\\WebThings\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\splash_shadow.png",
@@ -148,24 +148,24 @@
         "source": "D:\\Desktop\\WebThings\\app\\src\\main\\res\\drawable-hdpi\\upload_pressed.png"
     },
     {
-        "merged": "D:\\Desktop\\WebThings (1)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\right_lv.png",
-        "source": "D:\\Desktop\\WebThings (1)\\app\\src\\main\\res\\drawable-hdpi\\right_lv.png"
-    },
-    {
         "merged": "I:\\Desktop\\WebThings\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\activity_main_criclepermisson.png",
         "source": "I:\\Desktop\\WebThings\\app\\src\\main\\res\\drawable-hdpi\\activity_main_criclepermisson.png"
+    },
+    {
+        "merged": "D:\\Desktop\\WebThings (1)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\right_lv.png",
+        "source": "D:\\Desktop\\WebThings (1)\\app\\src\\main\\res\\drawable-hdpi\\right_lv.png"
     },
     {
         "merged": "D:\\Desktop\\WebThings\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\cmd_right_setting.png",
         "source": "D:\\Desktop\\WebThings\\app\\src\\main\\res\\drawable-hdpi\\cmd_right_setting.png"
     },
     {
-        "merged": "D:\\Desktop\\WebThings (1)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\video_right.png",
-        "source": "D:\\Desktop\\WebThings (1)\\app\\src\\main\\res\\drawable-hdpi\\video_right.png"
-    },
-    {
         "merged": "I:\\Desktop\\WebThings\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\upload_normal.png",
         "source": "I:\\Desktop\\WebThings\\app\\src\\main\\res\\drawable-hdpi\\upload_normal.png"
+    },
+    {
+        "merged": "D:\\Desktop\\WebThings (1)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\video_right.png",
+        "source": "D:\\Desktop\\WebThings (1)\\app\\src\\main\\res\\drawable-hdpi\\video_right.png"
     },
     {
         "merged": "D:\\Desktop\\WebThings\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_nh3.png",
@@ -212,12 +212,12 @@
         "source": "I:\\Desktop\\WebThings\\app\\src\\main\\res\\drawable-hdpi\\ck_k.png"
     },
     {
-        "merged": "D:\\Desktop\\WebThings (1)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\tab_bottom_reminder_bg_press.png",
-        "source": "D:\\Desktop\\WebThings (1)\\app\\src\\main\\res\\drawable-hdpi\\tab_bottom_reminder_bg_press.png"
-    },
-    {
         "merged": "I:\\Desktop\\WebThings\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\acctivity_mian_criclebutton_bg.png",
         "source": "I:\\Desktop\\WebThings\\app\\src\\main\\res\\drawable-hdpi\\acctivity_mian_criclebutton_bg.png"
+    },
+    {
+        "merged": "D:\\Desktop\\WebThings (1)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\tab_bottom_reminder_bg_press.png",
+        "source": "D:\\Desktop\\WebThings (1)\\app\\src\\main\\res\\drawable-hdpi\\tab_bottom_reminder_bg_press.png"
     },
     {
         "merged": "D:\\Desktop\\WebThings\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_common_bg_f.9.png",
@@ -228,12 +228,12 @@
         "source": "I:\\Desktop\\WebThings\\app\\src\\main\\res\\drawable-hdpi\\calendar_month_left.png"
     },
     {
-        "merged": "D:\\Desktop\\WebThings\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\upload_normal.png",
-        "source": "D:\\Desktop\\WebThings\\app\\src\\main\\res\\drawable-hdpi\\upload_normal.png"
-    },
-    {
         "merged": "I:\\Desktop\\WebThings\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_title_right_gray.png",
         "source": "I:\\Desktop\\WebThings\\app\\src\\main\\res\\drawable-hdpi\\btn_title_right_gray.png"
+    },
+    {
+        "merged": "D:\\Desktop\\WebThings\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\upload_normal.png",
+        "source": "D:\\Desktop\\WebThings\\app\\src\\main\\res\\drawable-hdpi\\upload_normal.png"
     },
     {
         "merged": "I:\\Desktop\\WebThings\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\tab_bottom_reminder_bg_normal.png",
@@ -264,12 +264,12 @@
         "source": "D:\\Desktop\\WebThings (1)\\app\\src\\main\\res\\drawable-hdpi\\group_down.png"
     },
     {
-        "merged": "D:\\Desktop\\WebThings (1)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\activity_login_noaccount.png",
-        "source": "D:\\Desktop\\WebThings (1)\\app\\src\\main\\res\\drawable-hdpi\\activity_login_noaccount.png"
-    },
-    {
         "merged": "D:\\Desktop\\WebThings\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\allview_loading.png",
         "source": "D:\\Desktop\\WebThings\\app\\src\\main\\res\\drawable-hdpi\\allview_loading.png"
+    },
+    {
+        "merged": "D:\\Desktop\\WebThings (1)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\activity_login_noaccount.png",
+        "source": "D:\\Desktop\\WebThings (1)\\app\\src\\main\\res\\drawable-hdpi\\activity_login_noaccount.png"
     },
     {
         "merged": "D:\\Desktop\\WebThings\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bg_top.png",
@@ -280,12 +280,12 @@
         "source": "D:\\Desktop\\WebThings\\app\\src\\main\\res\\drawable-hdpi\\add_item_pressed.png"
     },
     {
-        "merged": "D:\\Desktop\\WebThings (1)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\acctivity_mian_criclebutton_bg.png",
-        "source": "D:\\Desktop\\WebThings (1)\\app\\src\\main\\res\\drawable-hdpi\\acctivity_mian_criclebutton_bg.png"
-    },
-    {
         "merged": "I:\\Desktop\\WebThings\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\allview_refreshing.png",
         "source": "I:\\Desktop\\WebThings\\app\\src\\main\\res\\drawable-hdpi\\allview_refreshing.png"
+    },
+    {
+        "merged": "D:\\Desktop\\WebThings (1)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\acctivity_mian_criclebutton_bg.png",
+        "source": "D:\\Desktop\\WebThings (1)\\app\\src\\main\\res\\drawable-hdpi\\acctivity_mian_criclebutton_bg.png"
     },
     {
         "merged": "D:\\Desktop\\WebThings (1)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dialog_titlebtn_bg.png",
@@ -296,12 +296,12 @@
         "source": "I:\\Desktop\\WebThings\\app\\src\\main\\res\\drawable-hdpi\\icon_app.png"
     },
     {
-        "merged": "D:\\Desktop\\WebThings\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\toast_actionsheet_bottom_pressed.9.png",
-        "source": "D:\\Desktop\\WebThings\\app\\src\\main\\res\\drawable-hdpi\\toast_actionsheet_bottom_pressed.9.png"
-    },
-    {
         "merged": "D:\\Desktop\\WebThings\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dialog_bg.png",
         "source": "D:\\Desktop\\WebThings\\app\\src\\main\\res\\drawable-hdpi\\dialog_bg.png"
+    },
+    {
+        "merged": "D:\\Desktop\\WebThings\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\toast_actionsheet_bottom_pressed.9.png",
+        "source": "D:\\Desktop\\WebThings\\app\\src\\main\\res\\drawable-hdpi\\toast_actionsheet_bottom_pressed.9.png"
     },
     {
         "merged": "I:\\Desktop\\WebThings\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\upload_pressed.png",
@@ -380,12 +380,12 @@
         "source": "D:\\Desktop\\WebThings (1)\\app\\src\\main\\res\\drawable-hdpi\\yzc_icon_light.png"
     },
     {
-        "merged": "D:\\Desktop\\WebThings\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\gesture_pattern_item_bg.9.png",
-        "source": "D:\\Desktop\\WebThings\\app\\src\\main\\res\\drawable-hdpi\\gesture_pattern_item_bg.9.png"
-    },
-    {
         "merged": "I:\\Desktop\\WebThings\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\activity_register_timebtn_bg.png",
         "source": "I:\\Desktop\\WebThings\\app\\src\\main\\res\\drawable-hdpi\\activity_register_timebtn_bg.png"
+    },
+    {
+        "merged": "D:\\Desktop\\WebThings\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\gesture_pattern_item_bg.9.png",
+        "source": "D:\\Desktop\\WebThings\\app\\src\\main\\res\\drawable-hdpi\\gesture_pattern_item_bg.9.png"
     },
     {
         "merged": "D:\\Desktop\\WebThings\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ck_s.png",
@@ -424,12 +424,12 @@
         "source": "D:\\Desktop\\WebThings (1)\\app\\src\\main\\res\\drawable-hdpi\\ck_s.png"
     },
     {
-        "merged": "I:\\Desktop\\WebThings\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\allview_pullup_icon_big.png",
-        "source": "I:\\Desktop\\WebThings\\app\\src\\main\\res\\drawable-hdpi\\allview_pullup_icon_big.png"
-    },
-    {
         "merged": "I:\\Desktop\\WebThings\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\allview_loading.png",
         "source": "I:\\Desktop\\WebThings\\app\\src\\main\\res\\drawable-hdpi\\allview_loading.png"
+    },
+    {
+        "merged": "I:\\Desktop\\WebThings\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\allview_pullup_icon_big.png",
+        "source": "I:\\Desktop\\WebThings\\app\\src\\main\\res\\drawable-hdpi\\allview_pullup_icon_big.png"
     },
     {
         "merged": "D:\\Desktop\\WebThings (1)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\tips_smile.png",
@@ -456,20 +456,20 @@
         "source": "D:\\Desktop\\WebThings\\app\\src\\main\\res\\drawable-hdpi\\video_stop.png"
     },
     {
-        "merged": "D:\\Desktop\\WebThings (1)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\cmd_left_back.png",
-        "source": "D:\\Desktop\\WebThings (1)\\app\\src\\main\\res\\drawable-hdpi\\cmd_left_back.png"
-    },
-    {
         "merged": "D:\\Desktop\\WebThings\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\activity_settings_bottombtn_bg.png",
         "source": "D:\\Desktop\\WebThings\\app\\src\\main\\res\\drawable-hdpi\\activity_settings_bottombtn_bg.png"
     },
     {
-        "merged": "D:\\Desktop\\WebThings (1)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\progress_blue_circle.png",
-        "source": "D:\\Desktop\\WebThings (1)\\app\\src\\main\\res\\drawable-hdpi\\progress_blue_circle.png"
+        "merged": "D:\\Desktop\\WebThings (1)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\cmd_left_back.png",
+        "source": "D:\\Desktop\\WebThings (1)\\app\\src\\main\\res\\drawable-hdpi\\cmd_left_back.png"
     },
     {
         "merged": "D:\\Desktop\\WebThings\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
         "source": "D:\\Desktop\\WebThings\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Desktop\\WebThings (1)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\progress_blue_circle.png",
+        "source": "D:\\Desktop\\WebThings (1)\\app\\src\\main\\res\\drawable-hdpi\\progress_blue_circle.png"
     },
     {
         "merged": "I:\\Desktop\\WebThings\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\video_title_bg.png",
@@ -540,12 +540,12 @@
         "source": "D:\\Desktop\\WebThings (1)\\app\\src\\main\\res\\drawable-hdpi\\video_play.png"
     },
     {
-        "merged": "I:\\Desktop\\WebThings\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\checked_off.png",
-        "source": "I:\\Desktop\\WebThings\\app\\src\\main\\res\\drawable-hdpi\\checked_off.png"
-    },
-    {
         "merged": "D:\\Desktop\\WebThings\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\progress_whtie_groove.png",
         "source": "D:\\Desktop\\WebThings\\app\\src\\main\\res\\drawable-hdpi\\progress_whtie_groove.png"
+    },
+    {
+        "merged": "I:\\Desktop\\WebThings\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\checked_off.png",
+        "source": "I:\\Desktop\\WebThings\\app\\src\\main\\res\\drawable-hdpi\\checked_off.png"
     },
     {
         "merged": "D:\\Desktop\\WebThings (1)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\toast_actionsheet_middle_normal.9.png",
@@ -564,12 +564,12 @@
         "source": "D:\\Desktop\\WebThings\\app\\src\\main\\res\\drawable-hdpi\\topright_btn.png"
     },
     {
-        "merged": "D:\\Desktop\\WebThings\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\tab_bottom_reminder_bg_press.png",
-        "source": "D:\\Desktop\\WebThings\\app\\src\\main\\res\\drawable-hdpi\\tab_bottom_reminder_bg_press.png"
-    },
-    {
         "merged": "I:\\Desktop\\WebThings\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\yzc_icon_feed.png",
         "source": "I:\\Desktop\\WebThings\\app\\src\\main\\res\\drawable-hdpi\\yzc_icon_feed.png"
+    },
+    {
+        "merged": "D:\\Desktop\\WebThings\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\tab_bottom_reminder_bg_press.png",
+        "source": "D:\\Desktop\\WebThings\\app\\src\\main\\res\\drawable-hdpi\\tab_bottom_reminder_bg_press.png"
     },
     {
         "merged": "I:\\Desktop\\WebThings\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\skin_common_btn_red_unpressed.9.png",

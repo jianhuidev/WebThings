@@ -37,7 +37,7 @@ import static com.kys26.webthings.method.MethodTools.mCoolingDataList;
 
 public class WarningActionActivity extends BaseActivity implements View.OnClickListener, ChangeList {
     FrameLayout left_btn, right_btn;
-    Button sure;
+//    Button sure;
     ListView wind_list;
     List<NodeControlData> mNodeControlDataList;
     int parentPosition;
@@ -103,8 +103,8 @@ public class WarningActionActivity extends BaseActivity implements View.OnClickL
                             wind_list.setAdapter(mAdapter);
                             //如果自动控制打开,那么不允许打开自动控制
                             if (intent.getBooleanExtra("IsSwitchOpen", false)) {
-                                sure.setClickable(false);
-                                sure.setEnabled(false);
+//                                sure.setClickable(false);
+//                                sure.setEnabled(false);
                                 Message message = new Message();
                                 message.obj = wind_list;
                                 handler.sendMessage(message);
@@ -138,8 +138,8 @@ public class WarningActionActivity extends BaseActivity implements View.OnClickL
         left_btn = (FrameLayout) findViewById(R.id.left_btn);
         //right_btn = (FrameLayout) findViewById(R.id.right_btn);
         left_btn.setOnClickListener(this);
-        sure = (Button) findViewById(R.id.button_sure);
-        sure.setOnClickListener(this);
+//        sure = (Button) findViewById(R.id.button_sure);
+//        sure.setOnClickListener(this);
         right_btn = (FrameLayout) findViewById(R.id.right_btn);
         right_btn.setOnClickListener(this);
         wind_list = (ListView) findViewById(R.id.wind_list);
@@ -171,11 +171,6 @@ public class WarningActionActivity extends BaseActivity implements View.OnClickL
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.left_btn:
-                this.finish();
-                break;
-            case R.id.right_btn:
-                break;
-            case R.id.button_sure:
                 Intent intent = new Intent();
                 intent.putStringArrayListExtra("list", mList);
                 setResult(0, intent);
@@ -204,6 +199,40 @@ public class WarningActionActivity extends BaseActivity implements View.OnClickL
                     e.printStackTrace();
                 }
                 doRegist(Path.host + Path.URL_UPDATE_WARNING, object, UPDATE_WARNING);
+//                this.finish();
+                break;
+            case R.id.right_btn:
+                break;
+//            case R.id.button_sure:
+//                Intent intent = new Intent();
+//                intent.putStringArrayListExtra("list", mList);
+//                setResult(0, intent);
+//                JSONObject object = new JSONObject();
+//                try {
+//                    object.put("gwid", warningData.getGwid());
+//                    object.put("ndname", warningData.getNdname());
+//                    object.put("autoControl", warningData.getautoControl());
+//                    object.put("warningValue", warningData.getWarningValue());
+//                } catch (JSONException e) {
+//                    e.printStackTrace();
+//                }
+//                JSONArray array = new JSONArray();
+//                List<String> windnodeList = new ArrayList<>();
+//                for (int i = 0; i < wind_list.getChildCount(); i++) {
+//                    CheckBox s = (CheckBox) wind_list.getChildAt(i).findViewById(R.id.switch_btn);
+//                    if (s.isChecked()) {
+//                        array.put(mNodeControlDataList.get(i).getNodeid());
+//                        windnodeList.add(mNodeControlDataList.get(i).getNodeid());
+//                    }
+//                }
+//                warningData.setWarningDevice(windnodeList);
+//                try {
+//                    object.put("warningDevice", array);
+//                } catch (JSONException e) {
+//                    e.printStackTrace();
+//                }
+//                doRegist(Path.host + Path.URL_UPDATE_WARNING, object, UPDATE_WARNING);
+//                break;
         }
     }
 
