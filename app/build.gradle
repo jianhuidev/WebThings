@@ -11,7 +11,7 @@ android {
         }
     }
     compileSdkVersion 25
-    buildToolsVersion '25.0.2'
+    buildToolsVersion '26.0.2'
     defaultConfig {
         applicationId "com.kys26.webthings"
         minSdkVersion 16
@@ -48,7 +48,6 @@ dependencies {
     compile files('libs/xUtils-2.3.6.jar')
     compile files('libs/butterknife-6.0.0.jar')
     compile files('libs/andbase20130716.jar')
-    compile files('libs/push.jar')
     compile files('libs/mpandroidchartlibrary-1-7-4.jar')
     compile files('libs/volley.jar')
     compile files('libs/json-lib-2.4-jdk15.jar')

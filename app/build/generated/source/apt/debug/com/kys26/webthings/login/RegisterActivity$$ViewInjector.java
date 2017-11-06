@@ -9,11 +9,13 @@ public class RegisterActivity$$ViewInjector {
     View view;
     view = finder.findRequiredView(source, 2131689774, "field 'mNicknameEdit'");
     target.mNicknameEdit = (android.widget.EditText) view;
+    view = finder.findRequiredView(source, 2131689820, "field 'mTruenameEdit'");
+    target.mTruenameEdit = (android.widget.EditText) view;
     view = finder.findRequiredView(source, 2131689775, "field 'mPasswordEdit'");
     target.mPasswordEdit = (android.widget.EditText) view;
-    view = finder.findRequiredView(source, 2131689816, "field 'mEmailEdit'");
+    view = finder.findRequiredView(source, 2131689821, "field 'mEmailEdit'");
     target.mEmailEdit = (android.widget.EditText) view;
-    view = finder.findRequiredView(source, 2131689817, "field 'mPhoneEdit'");
+    view = finder.findRequiredView(source, 2131689822, "field 'mPhoneEdit'");
     target.mPhoneEdit = (android.widget.EditText) view;
     view = finder.findRequiredView(source, 2131689684, "field 'mCmdLeftBack'");
     target.mCmdLeftBack = (android.widget.ImageView) view;
@@ -29,7 +31,7 @@ public class RegisterActivity$$ViewInjector {
       });
     view = finder.findRequiredView(source, 2131689769, "field 'mRelativeLayout'");
     target.mRelativeLayout = (android.widget.RelativeLayout) view;
-    view = finder.findRequiredView(source, 2131689815, "field 'mRegistBtn' and method 'onClick'");
+    view = finder.findRequiredView(source, 2131689819, "field 'mRegistBtn' and method 'onClick'");
     target.mRegistBtn = (android.widget.Button) view;
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {
@@ -45,6 +47,7 @@ public class RegisterActivity$$ViewInjector {
 
   public static void reset(com.kys26.webthings.login.RegisterActivity target) {
     target.mNicknameEdit = null;
+    target.mTruenameEdit = null;
     target.mPasswordEdit = null;
     target.mEmailEdit = null;
     target.mPhoneEdit = null;
