@@ -7,11 +7,11 @@ public class Path {
     /**
      * 测试阶段服务器请求地址
      */
-    public final static String host = "http://123.207.167.208:8080/";
-    //  public final static String host = "http://192.168.87.59:8080/";
+//    public final static String host = "http://123.207.167.208:8080/";
+    public final static String host = "http://192.168.87.59:8080/";
     public final static String videoHost = "http://192.168.87.136/video/";
     public final static String videoIp = "192.158.87.59";
-    //public final static String host = "http://172.18.1.101:8080/controller/";
+//    public final static String host = "http://172.18.1.121:8080/controller/";
     /**
      * 登陆请求地址
      */
@@ -133,4 +133,9 @@ public class Path {
     public static final String URL_GET_CLIENT = "clientInformationShow.do";//获取用户信息
     public static final String URL_UPDATA_CLIENT = "updateClient.do";//更改用户信息
     public static final String URL_UPDATA_CLIENTIMG = "updateClientimg.do";//上传用户头像
+
+    public static final String URL_REGISTER ="registeruser.do";//注册
+    public static final String URL_SENDEMAIL ="sendEmail.do";//忘记密码的第一个接口，获取验证码
+    public static final String URL_MAILBOX_VER ="mailboxVerification.do";//忘记密码的第二个接口，验证邮件验证码
+    public static final String URL_RETRIEVE_PASSWORD ="retrievePassword.do";//忘记密码的第三个接口，密码重新设置
 }

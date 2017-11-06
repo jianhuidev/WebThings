@@ -36,20 +36,21 @@
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     //帮用户开启gps
     <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
-
-    <meta-data
-        android:name="android.support.VERSION"
-        android:value="25.3.1" />
-
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- 录音 -->
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
     <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
     <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.1" />
+
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- Activity声明 -->
     <application
         android:name="com.kys26.webthings.app.MyApplication"
         android:allowBackup="true"
+        android:debuggable="true"
         android:icon="@drawable/icon_app"
         android:label="@string/app_name"
         android:screenOrientation="portrait"

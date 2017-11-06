@@ -56,6 +56,7 @@ public class FarmFrgment extends Fragment implements FragInterForUI {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
         TAG = this.getClass().getName();
         mView = inflater.inflate(R.layout.fragment_farm_new, container, false);
+        ((MainActivity) getActivity()).getGwAndDeviceDate();
         ((MainActivity) getActivity()).doRegist(Path.host + Path.URL_MANAGE_FARM, null, MainActivity.GET_FARM);
         initView();
         ButterKnife.inject(this, super.onCreateView(inflater, container, savedInstanceState));

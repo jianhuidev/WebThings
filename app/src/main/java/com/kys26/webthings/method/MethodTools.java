@@ -36,6 +36,7 @@ public final class MethodTools {
      * 自定义Httpjson请求类中的异步加载器
      */
     public static Handler HnadlerVOlleyJson;
+
     /**
      * 存储舒适度数据
      */
