@@ -1,7 +1,9 @@
 package com.kys26.webthings.gateway;
 
+import android.Manifest;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.content.res.AssetFileDescriptor;
 import android.graphics.Bitmap;
 import android.media.AudioManager;
@@ -11,6 +13,9 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.os.Vibrator;
+import android.support.annotation.NonNull;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.Gravity;
@@ -103,6 +108,7 @@ public class CaptureActivity extends BaseActivity implements Callback {
      */
     private String TAG = "CaptureActivity";
 
+    private SurfaceHolder surfaceHolder;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -279,7 +285,7 @@ public class CaptureActivity extends BaseActivity implements Callback {
     protected void onResume() {
         super.onResume();
         SurfaceView surfaceView = (SurfaceView) findViewById(R.id.preview_view);
-        SurfaceHolder surfaceHolder = surfaceView.getHolder();
+        surfaceHolder = surfaceView.getHolder();
         if (hasSurface) {
             initCamera(surfaceHolder);
         } else {
@@ -357,7 +363,21 @@ public class CaptureActivity extends BaseActivity implements Callback {
      * @author: kys_26使用者：徐建强 2015-11-10
      */
     private void initCamera(SurfaceHolder surfaceHolder) {
-        try {
+        if (ContextCompat.checkSelfPermission(CaptureActivity.this, Manifest.
+                permission.CAMERA)!= PackageManager.PERMISSION_GRANTED){
+
+            /**没有授权的情况*/
+            ActivityCompat.requestPermissions(CaptureActivity.this,new
+            String[]{Manifest.permission.CAMERA},1);
+        }else {
+            openCamera(surfaceHolder);
+        }
+
+
+
+    }
+    private void openCamera(SurfaceHolder surfaceHolder){
+        try {//加上运行时权限吧
             CameraManager.get().openDriver(surfaceHolder);
         } catch (IOException ioe) {
             return;
@@ -366,6 +386,23 @@ public class CaptureActivity extends BaseActivity implements Callback {
         }
         if (handler == null) {
             handler = new CaptureActivityHandler(this, decodeFormats, characterSet);
+        }
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull
+            int[] grantResults) {
+//        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        switch (requestCode){
+            case 1:
+                if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED){
+
+                    /**可以调用相应的方法了*/
+                    openCamera(surfaceHolder);
+                }else {
+                    Toast.makeText(this,"你禁用了权限",Toast.LENGTH_SHORT).show();
+                }
+                break;
         }
     }
 

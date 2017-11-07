@@ -7,7 +7,7 @@ import butterknife.ButterKnife.Finder;
 public class AddGateWayActivity$$ViewInjector {
   public static void inject(Finder finder, final com.kys26.webthings.projectmanage.AddGateWayActivity target, Object source) {
     View view;
-    view = finder.findRequiredView(source, 2131689666, "field 'mAddgatewayLeftIv' and method 'onClick'");
+    view = finder.findRequiredView(source, 2131296303, "field 'mAddgatewayLeftIv' and method 'onClick'");
     target.mAddgatewayLeftIv = (android.widget.ImageView) view;
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {
@@ -17,13 +17,13 @@ public class AddGateWayActivity$$ViewInjector {
           target.onClick(p0);
         }
       });
-    view = finder.findRequiredView(source, 2131689667, "field 'mAddgatewayTittle'");
+    view = finder.findRequiredView(source, 2131296305, "field 'mAddgatewayTittle'");
     target.mAddgatewayTittle = (android.widget.TextView) view;
-    view = finder.findRequiredView(source, 2131689674, "field 'mAddgatewayDatalist'");
+    view = finder.findRequiredView(source, 2131296301, "field 'mAddgatewayDatalist'");
     target.mAddgatewayDatalist = (android.widget.ListView) view;
-    view = finder.findRequiredView(source, 2131689668, "field 'mAddgatewayGwspinner'");
+    view = finder.findRequiredView(source, 2131296302, "field 'mAddgatewayGwspinner'");
     target.mAddgatewayGwspinner = (android.widget.Spinner) view;
-    view = finder.findRequiredView(source, 2131689673, "field 'mAddgatewayAdditemiv' and method 'onClick'");
+    view = finder.findRequiredView(source, 2131296300, "field 'mAddgatewayAdditemiv' and method 'onClick'");
     target.mAddgatewayAdditemiv = (android.widget.ImageView) view;
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {
@@ -33,7 +33,7 @@ public class AddGateWayActivity$$ViewInjector {
           target.onClick(p0);
         }
       });
-    view = finder.findRequiredView(source, 2131689675, "field 'mAddGateWayNextStep' and method 'onClick'");
+    view = finder.findRequiredView(source, 2131296297, "field 'mAddGateWayNextStep' and method 'onClick'");
     target.mAddGateWayNextStep = (android.widget.TextView) view;
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {
@@ -43,9 +43,9 @@ public class AddGateWayActivity$$ViewInjector {
           target.onClick(p0);
         }
       });
-    view = finder.findRequiredView(source, 2131689670, "field 'mAddGateWayFarmName'");
+    view = finder.findRequiredView(source, 2131296296, "field 'mAddGateWayFarmName'");
     target.mAddGateWayFarmName = (android.widget.TextView) view;
-    view = finder.findRequiredView(source, 2131689672, "field 'mGwlistTv'");
+    view = finder.findRequiredView(source, 2131296538, "field 'mGwlistTv'");
     target.mGwlistTv = (android.widget.TextView) view;
   }
 
