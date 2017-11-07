@@ -7,9 +7,9 @@ import butterknife.ButterKnife.Finder;
 public class MainActivity$$ViewInjector {
   public static void inject(Finder finder, final com.kys26.webthings.main.MainActivity target, Object source) {
     View view;
-    view = finder.findRequiredView(source, 2131689785, "field 'fragment'");
+    view = finder.findRequiredView(source, 2131296508, "field 'fragment'");
     target.fragment = (android.widget.FrameLayout) view;
-    view = finder.findRequiredView(source, 2131689786, "field 'mBtnBottomLeft' and method 'onClick'");
+    view = finder.findRequiredView(source, 2131296341, "field 'mBtnBottomLeft' and method 'onClick'");
     target.mBtnBottomLeft = (android.widget.RelativeLayout) view;
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {
@@ -19,7 +19,7 @@ public class MainActivity$$ViewInjector {
           target.onClick(p0);
         }
       });
-    view = finder.findRequiredView(source, 2131689788, "field 'mBtnBottomMiddle' and method 'onClick'");
+    view = finder.findRequiredView(source, 2131296342, "field 'mBtnBottomMiddle' and method 'onClick'");
     target.mBtnBottomMiddle = (android.widget.RelativeLayout) view;
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {
@@ -29,7 +29,7 @@ public class MainActivity$$ViewInjector {
           target.onClick(p0);
         }
       });
-    view = finder.findRequiredView(source, 2131689790, "field 'mBtnBottomRight' and method 'onClick'");
+    view = finder.findRequiredView(source, 2131296343, "field 'mBtnBottomRight' and method 'onClick'");
     target.mBtnBottomRight = (android.widget.RelativeLayout) view;
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {
@@ -39,7 +39,7 @@ public class MainActivity$$ViewInjector {
           target.onClick(p0);
         }
       });
-    view = finder.findRequiredView(source, 2131689784, "field 'mBackground'");
+    view = finder.findRequiredView(source, 2131296328, "field 'mBackground'");
     target.mBackground = (android.widget.LinearLayout) view;
   }
 

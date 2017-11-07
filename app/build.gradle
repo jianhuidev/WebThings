@@ -20,6 +20,11 @@ android {
             // 设置支持的SO库架构
             abiFilters 'armeabi', 'x86', 'armeabi-v7a', 'x86_64', 'arm64-v8a'
         }
+        javaCompileOptions {
+            annotationProcessorOptions {
+                includeCompileClasspath = true
+            }
+        }
     }
     lintOptions {
         checkReleaseBuilds false
@@ -46,7 +51,6 @@ dependencies {
     compile files('libs/core.jar')
     compile files('libs/library.jar')
     compile files('libs/xUtils-2.3.6.jar')
-    compile files('libs/butterknife-6.0.0.jar')
     compile files('libs/andbase20130716.jar')
     compile files('libs/mpandroidchartlibrary-1-7-4.jar')
     compile files('libs/volley.jar')
@@ -69,6 +73,8 @@ dependencies {
     compile project(':IMLib')
     compile 'com.android.support:design:25.3.1'
     compile 'de.hdodenhof:circleimageview:2.1.0'
+    implementation files('libs/push.jar')
+    implementation files('libs/butterknife-6.0.0.jar')
 }
 
 android { compileOptions.encoding = "UTF-8" }

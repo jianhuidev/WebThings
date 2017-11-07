@@ -7,7 +7,7 @@ import butterknife.ButterKnife.Finder;
 public class CreateProjectActivity$$ViewInjector {
   public static void inject(Finder finder, final com.kys26.webthings.projectmanage.CreateProjectActivity target, Object source) {
     View view;
-    view = finder.findRequiredView(source, 2131689727, "field 'mCreateProjectLeftIv' and method 'onClick'");
+    view = finder.findRequiredView(source, 2131296415, "field 'mCreateProjectLeftIv' and method 'onClick'");
     target.mCreateProjectLeftIv = (android.widget.ImageView) view;
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {
@@ -17,35 +17,35 @@ public class CreateProjectActivity$$ViewInjector {
           target.onClick(p0);
         }
       });
-    view = finder.findRequiredView(source, 2131689728, "field 'mCreateProjectTittle'");
+    view = finder.findRequiredView(source, 2131296419, "field 'mCreateProjectTittle'");
     target.mCreateProjectTittle = (android.widget.TextView) view;
-    view = finder.findRequiredView(source, 2131689665, "field 'mTitleRl'");
+    view = finder.findRequiredView(source, 2131297092, "field 'mTitleRl'");
     target.mTitleRl = (android.widget.RelativeLayout) view;
-    view = finder.findRequiredView(source, 2131689730, "field 'mCreateProjectStep0'");
+    view = finder.findRequiredView(source, 2131296418, "field 'mCreateProjectStep0'");
     target.mCreateProjectStep0 = (android.widget.TextView) view;
-    view = finder.findRequiredView(source, 2131689731, "field 'mCreateProjectApplicationType'");
+    view = finder.findRequiredView(source, 2131296402, "field 'mCreateProjectApplicationType'");
     target.mCreateProjectApplicationType = (android.widget.Spinner) view;
-    view = finder.findRequiredView(source, 2131689732, "field 'mCreateProjectVarieTytype'");
+    view = finder.findRequiredView(source, 2131296414, "field 'mCreateProjectVarieTytype'");
     target.mCreateProjectVarieTytype = (android.widget.Spinner) view;
-    view = finder.findRequiredView(source, 2131689733, "field 'mCreateProjectManager'");
+    view = finder.findRequiredView(source, 2131296410, "field 'mCreateProjectManager'");
     target.mCreateProjectManager = (android.widget.EditText) view;
-    view = finder.findRequiredView(source, 2131689734, "field 'mCreateProjectManagerPhone'");
+    view = finder.findRequiredView(source, 2131296411, "field 'mCreateProjectManagerPhone'");
     target.mCreateProjectManagerPhone = (android.widget.EditText) view;
-    view = finder.findRequiredView(source, 2131689735, "field 'mCreateProjectClient'");
+    view = finder.findRequiredView(source, 2131296403, "field 'mCreateProjectClient'");
     target.mCreateProjectClient = (android.widget.EditText) view;
-    view = finder.findRequiredView(source, 2131689736, "field 'mCreateProjectList'");
+    view = finder.findRequiredView(source, 2131296416, "field 'mCreateProjectList'");
     target.mCreateProjectList = (com.kys26.webthings.view.CustomProjectList) view;
-    view = finder.findRequiredView(source, 2131689737, "field 'mCreateProjectClientPhone'");
+    view = finder.findRequiredView(source, 2131296406, "field 'mCreateProjectClientPhone'");
     target.mCreateProjectClientPhone = (android.widget.EditText) view;
-    view = finder.findRequiredView(source, 2131689738, "field 'mCreateProjectClientMailBox'");
+    view = finder.findRequiredView(source, 2131296405, "field 'mCreateProjectClientMailBox'");
     target.mCreateProjectClientMailBox = (android.widget.EditText) view;
-    view = finder.findRequiredView(source, 2131689739, "field 'mCreateProjectClientAccount'");
+    view = finder.findRequiredView(source, 2131296404, "field 'mCreateProjectClientAccount'");
     target.mCreateProjectClientAccount = (android.widget.EditText) view;
-    view = finder.findRequiredView(source, 2131689742, "field 'mCreateProjectSelectFile'");
+    view = finder.findRequiredView(source, 2131296413, "field 'mCreateProjectSelectFile'");
     target.mCreateProjectSelectFile = (android.widget.Button) view;
-    view = finder.findRequiredView(source, 2131689743, "field 'mCreateProjectFileTxt'");
+    view = finder.findRequiredView(source, 2131296409, "field 'mCreateProjectFileTxt'");
     target.mCreateProjectFileTxt = (android.widget.TextView) view;
-    view = finder.findRequiredView(source, 2131689744, "field 'mCreateProjectNextStep' and method 'onClick'");
+    view = finder.findRequiredView(source, 2131296412, "field 'mCreateProjectNextStep' and method 'onClick'");
     target.mCreateProjectNextStep = (android.widget.LinearLayout) view;
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {
@@ -55,11 +55,11 @@ public class CreateProjectActivity$$ViewInjector {
           target.onClick(p0);
         }
       });
-    view = finder.findRequiredView(source, 2131689729, "field 'mCreateProjectScrollview'");
+    view = finder.findRequiredView(source, 2131296417, "field 'mCreateProjectScrollview'");
     target.mCreateProjectScrollview = (android.widget.ScrollView) view;
-    view = finder.findRequiredView(source, 2131689740, "field 'mCreateProjectFarmName'");
+    view = finder.findRequiredView(source, 2131296408, "field 'mCreateProjectFarmName'");
     target.mCreateProjectFarmName = (android.widget.EditText) view;
-    view = finder.findRequiredView(source, 2131689741, "field 'mCreateProjectFarmAddress'");
+    view = finder.findRequiredView(source, 2131296407, "field 'mCreateProjectFarmAddress'");
     target.mCreateProjectFarmAddress = (android.widget.EditText) view;
   }
 

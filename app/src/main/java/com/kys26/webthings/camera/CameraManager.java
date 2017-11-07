@@ -16,7 +16,6 @@
 
 package com.kys26.webthings.camera;
 
-import java.io.IOException;
 
 import android.content.Context;
 import android.graphics.PixelFormat;
@@ -25,8 +24,11 @@ import android.graphics.Rect;
 import android.hardware.Camera;
 import android.os.Build;
 import android.os.Handler;
+import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.SurfaceHolder;
+
+import java.io.IOException;
 
 /**
  * This object wraps the Camera service object and expects to be the only one talking to it. The
@@ -113,7 +115,7 @@ public final class CameraManager {
    * Opens the camera driver and initializes the hardware parameters.
    *
    * @param holder The surface object which the camera will draw preview frames into.
-   * @throws java.io.IOException Indicates the camera driver failed to open.
+   * @throws IOException Indicates the camera driver failed to open.
    */
   public void openDriver(SurfaceHolder holder) throws IOException {
     if (camera == null) {
@@ -215,20 +217,25 @@ public final class CameraManager {
       if (camera == null) {
         return null;
       }
-      int width = screenResolution.x * 3 / 4;
-      if (width < MIN_FRAME_WIDTH) {
-        width = MIN_FRAME_WIDTH;
-      } else if (width > MAX_FRAME_WIDTH) {
-        width = MAX_FRAME_WIDTH;
-      }
-      int height = screenResolution.y * 3 / 4;
-      if (height < MIN_FRAME_HEIGHT) {
-        height = MIN_FRAME_HEIGHT;
-      } else if (height > MAX_FRAME_HEIGHT) {
-        height = MAX_FRAME_HEIGHT;
-      }
+//      int width = screenResolution.x * 3 / 4;
+//      if (width < MIN_FRAME_WIDTH) {
+//        width = MIN_FRAME_WIDTH;
+//      } else if (width > MAX_FRAME_WIDTH) {
+//        width = MAX_FRAME_WIDTH;
+//      }
+//      int height = screenResolution.y * 3 / 4;
+//      if (height < MIN_FRAME_HEIGHT) {
+//        height = MIN_FRAME_HEIGHT;
+//      } else if (height > MAX_FRAME_HEIGHT) {
+//        height = MAX_FRAME_HEIGHT;
+//      }
+
+      DisplayMetrics dm = context.getResources().getDisplayMetrics();
+      int width = (int) (dm.widthPixels * 0.6);
+      int height = (int) (width * 0.9);
+
       int leftOffset = (screenResolution.x - width) / 2;
-      int topOffset = (screenResolution.y - height) / 2;
+      int topOffset = (screenResolution.y - height) *7/24;
       framingRect = new Rect(leftOffset, topOffset, leftOffset + width, topOffset + height);
       Log.d(TAG, "Calculated framing rect: " + framingRect);
     }

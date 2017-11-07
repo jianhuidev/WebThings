@@ -7,7 +7,7 @@ import butterknife.ButterKnife.Finder;
 public class QueryDetailActivity$$ViewInjector {
   public static void inject(Finder finder, final com.kys26.webthings.query.QueryDetailActivity target, Object source) {
     View view;
-    view = finder.findRequiredView(source, 2131689807, "field 'mNodeDetailList'");
+    view = finder.findRequiredView(source, 2131296674, "field 'mNodeDetailList'");
     target.mNodeDetailList = (android.support.v7.widget.RecyclerView) view;
   }
 
