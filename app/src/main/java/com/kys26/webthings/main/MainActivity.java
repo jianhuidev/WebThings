@@ -364,12 +364,14 @@ public class MainActivity extends BaseActivity {
                         JSONArray jsonArray = jsonObject.getJSONArray("data");
                         List<NodeVideoData> list = new ArrayList<>();
                         list.add(NodeVideoData.analysis(jsonObject));
+                        if (MethodTools.farmDataList.size()>0){
                         MethodTools.farmDataList.get(position).setVideoNodeList(list);
                         //MethodTools.farmDataList.get(position).getVideoNodeList().get(0).setIp(jsonObject.getString("ip"));
                         MethodTools.farmDataList.get(position).getVideoNodeList().get(0)
                                 .setVideoNodeId((Integer) jsonArray.getJSONObject(0).get("videoNodeId"));
                         MethodTools.farmDataList.get(position).getVideoNodeList().get(0)
                                 .setVideoNodeName((String) jsonArray.getJSONObject(0).get("videoNodeName"));
+                        }
                     } catch (JSONException e) {
                         e.printStackTrace();
                     }

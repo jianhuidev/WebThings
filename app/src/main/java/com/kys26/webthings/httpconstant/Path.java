@@ -7,8 +7,8 @@ public class Path {
     /**
      * 测试阶段服务器请求地址
      */
-//    public final static String host = "http://123.207.167.208:8080/";
-    public final static String host = "http://192.168.87.59:8080/";
+    public final static String host = "http://123.207.167.208:8080/";
+//    public final static String host = "http://192.168.87.59:8080/";
     public final static String videoHost = "http://192.168.87.136/video/";
     public final static String videoIp = "192.158.87.59";
 //    public final static String host = "http://172.18.1.121:8080/controller/";
